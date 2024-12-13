@@ -2,7 +2,8 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+# Specify the custom .env filename here
+load_dotenv('avery.env')
 
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 EMAIL_USERNAME = os.environ.get("EMAIL_USERNAME", "")
