@@ -1,3 +1,5 @@
+# src/email_client/email_parser.py
+
 from bs4 import BeautifulSoup
 import re
 import urllib.parse
@@ -9,9 +11,7 @@ def clean_title_line(title_line: str) -> str:
 
 def extract_actual_link(redirect_url: str) -> str:
     """
-    The link in the href is a Google Scholar redirect URL like:
-    https://scholar.google.com/scholar_url?url=ACTUAL_URL&...
-    We want to extract the ACTUAL_URL parameter.
+    Extract the actual article URL from the Google Scholar redirect URL.
     """
     parsed = urllib.parse.urlparse(redirect_url)
     qs = urllib.parse.parse_qs(parsed.query)
@@ -32,10 +32,9 @@ def parse_scholar_alert(raw_email_html: str):
           "snippet": str,
           "source": str,
           "authors": list[str],
-          "publication_date": "" (filled by enrichment later)
+          "publication_date": ""
         }
     """
-
     soup = BeautifulSoup(raw_email_html, "html.parser")
     articles = []
     
@@ -57,20 +56,27 @@ def parse_scholar_alert(raw_email_html: str):
 
         # The next element(s) after h3:
         # - The authors/source div is right after the h3 (possibly with a <br> or newline)
-        #   We can use h3.find_next_sibling() or find_next() to locate the next div with the color:#006621 style
         authors_source_div = h3.find_next("div", style=re.compile("color:#006621"))
         authors_line = authors_source_div.get_text(strip=True) if authors_source_div else ""
+        print("authors_line:", repr(authors_line))
 
         # Parse authors and source
         authors = []
         source = ""
-        if ' - ' in authors_line:
-            authors_part, source_part = authors_line.split(' - ', 1)
+
+        if '- ' in authors_line:
+            authors_part, source_part = authors_line.split('- ', 1)
+            # authors separated by commas
             authors = [a.strip() for a in authors_part.split(',') if a.strip()]
-            source = source_part.strip()
+
+            # Remove trailing ", year" if present
+            print("Before cleaning source_part:", repr(source_part))
+            source_part = re.sub(r',\s*\d{4}$', '', source_part).strip()
+            print("After cleaning source_part:", repr(source_part))
+            source = source_part
         else:
-            # If no separator, treat the entire line as source
-            source = authors_line
+            # If no ' - ', treat the entire line as source
+            source = authors_line.strip()
 
         # Next, the snippet line:
         snippet_div = authors_source_div.find_next("div", class_="gse_alrt_sni") if authors_source_div else None

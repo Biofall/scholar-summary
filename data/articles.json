@@ -1,0 +1,140 @@
+[
+  {
+    "title": "A neural circuit for context-dependent multimodal signaling in Drosophila",
+    "link": "https://www.biorxiv.org/content/10.1101/2024.12.04.625245.full.pdf",
+    "snippet": "AbstractMany animals, including humans, produce multimodal displays by combining acoustic with visual or vibratory signals [1–4]. However, the neural circuits that coordinate the production of multiple signals in a context-dependent manner are unknown. Multimodal behaviors could be produced by parallel circuits that independently integrate the external cues that trigger each signal. We find that multimodal signals inDrosophilaare driven by a single circuit that integrates external sensory cues with internal motivational state and circuit dynamics.Drosophilamales produce air-borne song and substrate-borne vibration during courtship and previous studies have identified neurons that drive courtship and singing, but the contexts and circuits that drive vibrations and coordinate multimodal signaling were not known [5–11]. We show that males produce song and vibration in distinct, largely non-overlapping contexts and that brain neurons that drive song also drive vibrations with cell-type specific dynamics and via separate pre-motor pathways. This circuit also coordinates multimodal signaling with ongoing behavior, namely locomotion, to drive vibrations only when the male’s vibrations can reach the female. A shared circuit facilitates the control of signal dynamics by external cues and motivational state through shared mechanisms like recurrence and mutual inhibition. A proof-of-concept circuit model shows that these motifs are sufficient to explain the behavioral dynamics. Our work shows how simple motifs can be combined in a single neural circuit to select and coordinate multiple behaviors.",
+    "source": "bioRxiv",
+    "authors": [
+      "Elsa Steinfath",
+      "Afshin Khalili",
+      "Melanie Stenger",
+      "Bjarne L. Schultze",
+      "Sarath Nair Ravindran",
+      "Kimia Alizadeh",
+      "Jan Clemens"
+    ],
+    "publication_date": "2024-12-07",
+    "doi": "10.1101/2024.12.04.625245"
+  },
+  {
+    "title": "Synapse profiling of identified neurons in the Drosophila brain",
+    "link": "https://www.biorxiv.org/content/biorxiv/early/2024/12/05/2024.12.02.626511.full.pdf",
+    "snippet": "AbstractSynapses are highly heterogeneous even within a single motor neuron inDrosophila melanogaster. In the central nervous system (CNS), the degree of stereotypy in the synaptic structure of specific neurons across individuals remains largely unexplored, due to the significant effort required to analyze multiple brain samples. Utilizing the split-GFP fluorescence-tagging, we achieved endogenous labeling of the presynaptic active zone (AZ) scaffold protein Bruchpilot (Brp) in a cell-type-specific manner. This strategy allowed us to devise a high-throughput quantification pipeline to characterize and compare cell-type-specific AZ structures across individuals. We found that multiple structural parameters such as Brp localization and AZ size revealed significant intracellular synaptic heterogeneity and cell-type-dependent stereotypy in the mushroom body (MB) circuit. Furthermore, we found that the AZ organization can be surprisingly local, even at the neighboring AZ level. These findings therefore suggest multi-level organizations of AZs, from neighboring synapses to across individuals.TeaserState-of-art fluorescence-based imaging technique and high-throughput analysis revealed previously unidentified synaptic organizations.",
+    "source": "bioRxiv",
+    "authors": [
+      "Hongyang Wu",
+      "Yoh Maekawa",
+      "Sayaka Eno",
+      "Shu Kondo",
+      "Nobuhiro Yamagata",
+      "Hiromu Tanimoto"
+    ],
+    "publication_date": "2024-12-05",
+    "doi": "10.1101/2024.12.02.626511"
+  },
+  {
+    "title": "Octopamine signals coordinate the spatial pattern of presynaptic machineries in the Drosophila mushroom bodies",
+    "link": "https://www.biorxiv.org/content/biorxiv/early/2024/12/05/2024.12.02.626512.full.pdf",
+    "snippet": "SUMMARYNeurons need to adjust synaptic output according to the targets. However, the intracellular heterogeneity of synaptic machinery is scarcely reported in the central nervous system, and its regulatory mechanism remain unknown. Applying the CRISPR/Cas9-mediated split-GFP tagging, we devised cell-type specific fluorescent labeling of the endogenous active zone scaffold protein, Bruchpilot (Brp). This technology enabled the quantification of intracellular diversity of presynaptic structures within the Kenyon cells of theDrosophilamushroom bodies. We found that the accumulation of Brp at active zones is strikingly heterogenous among the compartments of Kenyon cell axon terminals. Mechanistically, the localized octopaminergic signaling along Kenyon cell terminals regulate the Brp heterogeneity via Octβ2R and cAMP signaling. We further found that acute food deprivation reduced the compartmental heterogeneity of Brp accumulation in an octopaminergic signaling-dependent manner. This synaptic regulation explains how the mushroom body integrates changing physiological states.",
+    "source": "bioRxiv",
+    "authors": [
+      "Hongyang Wu",
+      "Sayaka Eno",
+      "Kyoko Jinnai",
+      "Yoh Maekawa",
+      "Kokoro Saito",
+      "Ayako Abe",
+      "Darren W Williams",
+      "Nobuhiro Yamagata",
+      "Shu Kondo",
+      "Hiromu Tanimoto"
+    ],
+    "publication_date": "2024-12-05",
+    "doi": "10.1101/2024.12.02.626512"
+  },
+  {
+    "title": "Molecular characterization and sub-retinal transplantation of hypoimmunogenic human retinal sheets in a minipig model of severe photoreceptor degeneration",
+    "link": "https://journals.biologists.com/dev/article/151/23/dev203071/363247",
+    "snippet": "ABSTRACT\n               Retinal degenerative diseases affect millions of people worldwide, and legal blindness is generally associated with the loss of cone photoreceptors located in the central region of the retina called the macula. Currently, there is no treatment to replace the macula. Addressing this unmet need, we employed control isogenic and hypoimmunogenic induced pluripotent stem cell lines to generate spontaneously polarized retinal sheets (RSs). RSs were enriched in retinal progenitor and cone precursor cells, which could differentiate into mature S- and M/L-cones in long-term cultures. Single-cell RNA-seq analysis showed that RSs recapitulate the ontogeny of the developing human retina. Isolation of neural rosettes for sub-retinal transplantation effectively eliminated unwanted cells such as RPE cells. In a porcine model of chemically induced retinal degeneration, grafts integrated the host retina and formed a new, yet immature, photoreceptor layer. In one transplanted animal, functional and immunohistochemical assays suggest that grafts exhibited responsiveness to light stimuli and established putative synaptic connections with host bipolar neurons. This study underscores the potential and challenges of RSs for clinical applications.",
+    "source": "Development",
+    "authors": [
+      "Andrea Barabino",
+      "Katia Mellal",
+      "Rimi Hamam",
+      "Anna Polosa",
+      "May Griffith",
+      "Jean-François Bouchard",
+      "Ananda Kalevar",
+      "Roy Hanna",
+      "Gilbert Bernier"
+    ],
+    "publication_date": "2024-12-01",
+    "doi": "10.1242/dev.203071"
+  },
+  {
+    "title": "Protective effect of Apelin-13 on oxygen and glucose deprivation induced-damage in retinal ganglion cells cultured in vitro",
+    "link": "https://link.springer.com/article/10.1007/s10735-024-10279-1",
+    "snippet": "Ischemic-anoxic injury plays an important role in the pathophysiology of diabetes retinopathy, optic neuropathy, even glaucoma and other ocular diseases. It may ultimately cause damage to neuronal death like retinal ganglion cells (RGCs) and …",
+    "source": "Journal of Molecular Histology",
+    "authors": [
+      "Li Dai",
+      "Linlin Luo",
+      "Ya Zhang",
+      "Min Fu",
+      "Ling Yu"
+    ],
+    "publication_date": "2024-12-04",
+    "doi": "10.1007/s10735-024-10279-1"
+  },
+  {
+    "title": "The sparse driver system for in vivo single-cell labeling and manipulation in Drosophila",
+    "link": "https://www.biorxiv.org/content/10.1101/2024.12.02.626507.full.pdf",
+    "snippet": "SUMMARYIn this protocol, we introduce a sparse driver system for cell-type specific single-cell labeling and manipulation inDrosophila, enabling complete and simultaneous expression of multiple transgenes in the same cells. The system precisely controls expression probability and sparsity via mutantFRTsites with reduced recombination efficiency and tunable FLP levels adjusted by heat-shock durations. We demonstrate that this generalizable toolkit enables tunable sparsity, multi-color staining, single-cell trans-synaptic tracing, single-cell manipulation, andin vivoanalysis of cell-autonomous gene function.For details on the use and execution of this protocol, please refer to Xu et al. 2024.GRAPHICAL ABSTRACT",
+    "source": "bioRxiv",
+    "authors": [
+      "Chuanyun Xu",
+      "Liqun Luo"
+    ],
+    "publication_date": "2024-12-04",
+    "doi": "10.1101/2024.12.02.626507"
+  },
+  {
+    "title": "Diverting glial glycolytic flux towards neurons is a memory-relevant role of Drosophila CRH-like signalling",
+    "link": "https://www.nature.com/articles/s41467-024-54778-x",
+    "snippet": "AbstractAn essential role of glial cells is to comply with the large and fluctuating energy needs of neurons. Metabolic adaptation is integral to the acute stress response, suggesting that glial cells could be major, yet overlooked, targets of stress hormones. Here we show that Dh44 neuropeptide, Drosophila homologue of mammalian corticotropin-releasing hormone (CRH), acts as an experience-dependent metabolic switch for glycolytic output in glia. Dh44 released by dopamine neurons limits glial fatty acid synthesis and build-up of lipid stores. Although basally active, this hormonal axis is acutely stimulated following learning of a danger-predictive cue. This results in transient suppression of glial anabolic use of pyruvate, sparing it for memory-relevant energy supply to neurons. Diverting pyruvate destination may dampen the need to upregulate glial glycolysis in response to increased neuronal demand. Although beneficial for the energy efficiency of memory formation, this mechanism reveals an ongoing competition between neuronal fuelling and glial anabolism.",
+    "source": "Nature Communications",
+    "authors": [
+      "Raquel Francés",
+      "Yasmine Rabah",
+      "Thomas Preat",
+      "Pierre-Yves Plaçais"
+    ],
+    "publication_date": "2024-12-02",
+    "doi": "10.1038/s41467-024-54778-x"
+  },
+  {
+    "title": "Temperature cues are integrated in a flexible circadian neuropeptidergic feedback circuit to remodel sleep-wake patterns in flies",
+    "link": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002918",
+    "snippet": "Organisms detect temperature signals through peripheral neurons, which relay them to central circadian networks to drive adaptive behaviors. Despite recent advances in Drosophila research, how circadian circuits integrate temperature cues with circadian signals to regulate sleep/wake patterns remains unclear. In this study, we used the FlyWire brain electron microscopy connectome to map neuronal connections, identifying lateral posterior neurons LPNs as key nodes for integrating temperature information into the circadian network. LPNs receive input from both circadian and temperature-sensing neurons, promoting sleep behavior. Through connectome analysis, genetic manipulation, and behavioral assays, we demonstrated that LPNs, downstream of thermo-sensitive anterior cells (ACs), suppress activity-promoting lateral dorsal neurons LNds via the AstC pathway, inducing sleep Disrupting LPN-LNd communication through either AstCR1 RNAi in LNds or in an AstCR1 mutant significantly impairs the heat-induced reduction in the evening activity peak. Conversely, optogenetic calcium imaging and behavioral assays revealed that cold-activated LNds subsequently stimulate LPNs through NPF-NPFR signaling, establishing a negative feedback loop. This feedback mechanism limits LNd activation to appropriate levels, thereby fine-tuning the evening peak increase at lower temperatures. In conclusion, our study constructed a comprehensive connectome centered on LPNs and identified a novel peptidergic circadian feedback circuit that coordinates temperature and circadian signals, offering new insights into the regulation of sleep patterns in Drosophila.",
+    "source": "PLOS Biology",
+    "authors": [
+      "Xin Yuan",
+      "Hailiang Li",
+      "Fang Guo"
+    ],
+    "publication_date": "2024-12-02",
+    "doi": "10.1371/journal.pbio.3002918"
+  },
+  {
+    "title": "Ants integrate proprioception as well as visual context and efference copies to make robust predictions",
+    "link": "https://www.nature.com/articles/s41467-024-53856-4",
+    "snippet": "Forward models are mechanisms enabling an agent to predict the sensory outcomes of its actions. They can be implemented through efference copies: copies of motor signals inhibiting the expected sensory stimulation, literally canceling the perceptual …",
+    "source": "Nature Communications",
+    "authors": [
+      "Océane Dauzere-Peres",
+      "Antoine Wystrach"
+    ],
+    "publication_date": "2024-12-01",
+    "doi": "10.1038/s41467-024-53856-4"
+  }
+]
