@@ -94,7 +94,7 @@ Run:
    ```
 This command will create a summary of all stored articles, even if no new ones were fetched today.
 
-File Structure
+## File Structure
 ```
 scholar-summarizer/
 ├─ user.env.example      # Environment variables (excluded from version control)
@@ -122,20 +122,25 @@ scholar-summarizer/
    ├─ test_*.py          # Unit tests
 ```
 
-Customization
+## Customization
 - Prompts: Adjust prompt_builder.py to refine the tone and depth of the summary.
 - Metadata Sources: Add or modify enrichment strategies in crossref.py to fetch more or different metadata.
 - Storage: Switch from JSON to a database if you need more robust article management.
 
-Troubleshooting
+## Troubleshooting
 - No Emails Fetched: Check your Gmail label for unread emails.
 - Invalid Credentials: Use app passwords or ensure OAuth2 flow is complete. Will add instructures later
 - Source Fields Not Cleaned: Update your parsing logic in email_parser.py if Google Scholar changes its formatting.
 - OpenAI Errors: Ensure your OPENAI_API_KEY is valid and you have API credits/permissions.
 
-Contributing
+## Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to improve. We value code quality, clear commit messages, and well-written documentation.
 
+## License
+This project is licensed under the [MIT License](https://opensource.org/license/mit).
+
 Scholar Summarizer: Automated literature curation that saves you time and keeps you at the forefront of your research domain.
 
+
+Scholar Summarizer: Automated literature curation that saves you time and keeps you at the forefront of your research domain.
