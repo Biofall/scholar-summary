@@ -58,7 +58,6 @@ def parse_scholar_alert(raw_email_html: str):
         # - The authors/source div is right after the h3 (possibly with a <br> or newline)
         authors_source_div = h3.find_next("div", style=re.compile("color:#006621"))
         authors_line = authors_source_div.get_text(strip=True) if authors_source_div else ""
-        print("authors_line:", repr(authors_line))
 
         # Parse authors and source
         authors = []
@@ -70,9 +69,7 @@ def parse_scholar_alert(raw_email_html: str):
             authors = [a.strip() for a in authors_part.split(',') if a.strip()]
 
             # Remove trailing ", year" if present
-            print("Before cleaning source_part:", repr(source_part))
             source_part = re.sub(r',\s*\d{4}$', '', source_part).strip()
-            print("After cleaning source_part:", repr(source_part))
             source = source_part
         else:
             # If no ' - ', treat the entire line as source
