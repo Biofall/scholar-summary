@@ -68,7 +68,7 @@ Run:
 This command will create a summary of all stored articles, even if no new ones were fetched today.
 
 File Structure
-
+```
 scholar-summarizer/
 ├─ user.env.example      # Environment variables (excluded from version control)
 ├─ data/
@@ -93,17 +93,18 @@ scholar-summarizer/
 │  │  ├─ logger.py       # Logging configuration
 └─ tests/
    ├─ test_*.py          # Unit tests
+```
 
 Customization
-	•	Prompts: Adjust prompt_builder.py to refine the tone and depth of the summary.
-	•	Metadata Sources: Add or modify enrichment strategies in crossref.py to fetch more or different metadata.
-	•	Storage: Switch from JSON to a database if you need more robust article management.
+- Prompts: Adjust prompt_builder.py to refine the tone and depth of the summary.
+- Metadata Sources: Add or modify enrichment strategies in crossref.py to fetch more or different metadata.
+- Storage: Switch from JSON to a database if you need more robust article management.
 
 Troubleshooting
-	•	No Emails Fetched: Check your Gmail label for unread emails.
-	•	Invalid Credentials: Use app passwords or ensure OAuth2 flow is complete. Will add instructures later
-	•	Source Fields Not Cleaned: Update your parsing logic in email_parser.py if Google Scholar changes its formatting.
-	•	OpenAI Errors: Ensure your OPENAI_API_KEY is valid and you have API credits/permissions.
+- No Emails Fetched: Check your Gmail label for unread emails.
+- Invalid Credentials: Use app passwords or ensure OAuth2 flow is complete. Will add instructures later
+- Source Fields Not Cleaned: Update your parsing logic in email_parser.py if Google Scholar changes its formatting.
+- OpenAI Errors: Ensure your OPENAI_API_KEY is valid and you have API credits/permissions.
 
 Contributing
 
