@@ -49,6 +49,31 @@ You’ll also need to install dependencies listed in `requirements.txt`.
    - Add your OPENAI_API_KEY and ensure your Gmail username/pass
 - See config.py for environment variable usage.
 
+4. **Set up a Google App Password**
+If you have **Two-Factor Authentication (2FA)** enabled on your Google account, you’ll need to create an App Password to allow Scholar Summarizer to access your Gmail account via the Gmail API.
+Steps to Create a Google App Password:
+	1.	Sign in to Your Google Account:
+   - Navigate to your Google Account.
+	2.	Access Security Settings:
+   - From the left-hand menu, select Security.
+	3.	Ensure 2FA is Enabled:
+	- Under the “Signing in to Google” section, make sure 2-Step Verification is ON. If it’s not, you’ll need to enable it first.
+	4.	Create an App Password:
+	- Click on App passwords. (This option appears only if 2FA is enabled.)
+	- You might be prompted to enter your password again for security.
+	- In the “Select app” dropdown, choose Other (Custom name).
+	- Enter a name like ScholarSummarizer and click Generate.
+	- Google will provide a 16-character app password. Copy this password as you’ll need it for the user.env file.
+
+5.**Update user.env with the App Password**
+- Open your user.env file.
+- Replace the Gmail password field with the newly generated app password.
+   ```env
+   OPENAI_API_KEY=your_openai_api_key
+   GMAIL_USER=your_email@gmail.com
+   GMAIL_APP_PASSWORD=your_app_password
+   ```
+
 4.	**Fetch & Summarize:**
    ```bash
    python -m src.main
