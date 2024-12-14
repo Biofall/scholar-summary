@@ -1,6 +1,6 @@
-# Scholar Summarizer
+# Scholar Summary
 
-**Scholar Summarizer** is a pipeline designed to transform Google Scholar alert emails into rich, synthesized summaries of newly published research. With a few automated steps, it fetches your latest Scholar alerts, extracts article metadata, enriches them via external APIs like CrossRef, and then uses ChatGPT to craft a consolidated summary report—complete with citations. Perfect for staying on top of the literature in your field without trawling through dozens of separate alerts.
+**Scholar Summary** is a pipeline designed to transform Google Scholar alert emails into rich, synthesized summaries of newly published research. With a few automated steps, it fetches your latest Scholar alerts, extracts article metadata, enriches them via external APIs like CrossRef, and then uses ChatGPT to craft a consolidated summary report—complete with citations. Perfect for staying on top of the literature in your field without trawling through dozens of separate alerts.
 
 ## What This Tool Does
 
