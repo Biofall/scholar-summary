@@ -9,7 +9,7 @@ def build_prompt(articles):
     - Categorize the provided scholarly articles into broad, context-relevant categories.
     - Provide a comprehensive summary synthesizing main findings, highlights, common themes, differences, and
       important nuances within each category.
-    - Include 3-line summaries for each individual paper.
+    - Include short summaries for each individual paper.
     - Use consistent article citations (e.g., Article X) based on the numbered list.
     - Conclude with trends observed across the papers.
     - Suggest specific papers for closer reading and rationale based on the company's focus.
@@ -23,15 +23,17 @@ def build_prompt(articles):
         "1. **Categorization:** Organize the articles into broad categories that align with our company's focus on behavioral and physiological "
         "monitoring, wearables and passive sensing, ML applications, mental health, and neurological/psychiatric disease progression. Each "
         "category should have a title. The categories should be logical and relevant based on the provided context. At the top of each "
-        "category, provide a summary of that category. The summary should synthesize the main findings, highlight common themes, differences, "
-        "and important nuances.\n\n"
-        "2. **Individual Paper Summaries:** Provide a concise, 3-line summary for each paper, capturing the essence of its contributions.\n\n"
-        "3. **Citations:** When referring to information from a specific article, cite it as (Article X), where X corresponds to the "
-        "article's number in the provided list. Ensure that the article title is included in the numbered list. Do not include the article title "
-        "in the category summary or comprehensive summary - just use (Article X)\n\n"
-        "4. **Conclusions:** Draw conclusions about overarching trends, gaps, and opportunities identified across the papers.\n\n"
-        "5. **Suggestions for Further Reading:** Recommend specific papers for closer examination, explaining why they are particularly relevant "
-        "given our company's focus."
+        "category, provide a summary of that category. The summary should have a 2 sections: 1) Synthesis of the main findings and "
+        "highlights of the major themes and 2) Important nuances and differences across the studies. Cite the papers as they are relevant "
+        " in the summary as (Article X), where X corresponds to the article's number in the provided list. \n\n"
+        "2. **Individual Paper Summaries:** After the summary for the category, provide a concise summary for each study in the category.\n\n"
+        "3. **Conclusions:** Draw conclusions about overarching trends, gaps, and opportunities identified across the papers.\n\n"
+        "4. **Suggestions for Further Reading:** Recommend specific papers for closer examination, explaining why they are particularly relevant "
+        "given our company's focus.\n\n"
+        "5. **Citations:** Any time an article is mentioned or relevant to a cateogory, cite in with an Article Number, First Author et. al, "
+        "and a link to the article.\n\n"
+        "Ensure that every article that is referenced ends up in citations. Check again at the end before generating the report to ensure "
+        "all articles are cited and that no hallucinations were made."
     )
 
     article_strs = []
@@ -62,8 +64,8 @@ def build_prompt(articles):
         f"### Please provide the following:\n"
         f"1. Categorize the articles.\n"
         f"2. Provide a comprehensive summary for each category.\n"
-        f"3. Include 3-line summaries for each individual paper.\n"
-        f"4. Conclude with trends observed across the papers.\n"
+        f"3. Include short summaries for each individual paper within the category.\n"
+        f"4. Draw conclusoins about trends, gaps, and opportunities acorss the papers.\n"
         f"5. Suggest specific papers to read closely and explain why they are relevant.\n"
     )
     return prompt
