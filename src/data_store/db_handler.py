@@ -25,7 +25,7 @@ def load_articles() -> List[Dict]:
             return []
 
 def save_articles(articles: List[Dict]) -> None:
-    """Save the list of articles to the main JSON file."""
+    """Save the list of articles to the single JSON file."""
     with open(DATA_FILE_PATH, "w", encoding="utf-8") as f:
         json.dump(articles, f, ensure_ascii=False, indent=2)
 
@@ -40,15 +40,18 @@ def store_articles(new_articles: List[Dict]) -> List[Dict]:
     # Filter out duplicates
     articles_to_add = [a for a in new_articles if a.get("link") and a["link"] not in existing_links]
 
+    # Add a timestamp field to each newly added article
+    # Format: "YYYY-MM-DD HH:MM:SS"
+    now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    for article in articles_to_add:
+        article["added_timestamp"] = now_str
+
     if articles_to_add:
         updated_articles = existing_articles + articles_to_add
-        # Save to the main file
         save_articles(updated_articles)
 
-        # Also create a timestamped snapshot to avoid overwriting
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        backup_file = os.path.join(DATA_DIR, f"articles_{timestamp}.json")
-        with open(backup_file, "w", encoding="utf-8") as f:
-            json.dump(updated_articles, f, ensure_ascii=False, indent=2)
-
     return articles_to_add
+
+def get_all_articles() -> List[Dict]:
+    """Return all currently stored articles."""
+    return load_articles()
