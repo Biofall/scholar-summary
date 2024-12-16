@@ -15,31 +15,45 @@ def main():
 
     # 1. Fetch unread emails
     html_bodies = fetch_unread_scholar_emails()
-    logger.info(f"Fetched {len(html_bodies)} unread scholar alert emails.")
+    total_emails = len(html_bodies)
+    if total_emails == 0:
+        logger.info("No unread scholar alert emails found. Exiting.")
+        return
 
+    logger.info(f"Found {total_emails} unread scholar alert emails. Beginning processing...")
     all_new_articles = []
 
-    # 2. Parse and enrich articles from each HTML body
-    for html_body in html_bodies:
+    # 2. Parse and enrich articles from each email with a progress meter
+    for i, html_body in enumerate(html_bodies, start=1):
+        logger.info(f"Processing email {i}/{total_emails}...")
+
         parsed_articles = parse_scholar_alert(html_body)
-        logger.info(f"Parsed {len(parsed_articles)} articles from one email.")
+        num_parsed = len(parsed_articles)
+        logger.info(f"Email {i}/{total_emails}: Parsed {num_parsed} articles.")
 
         # Enrich articles
         enriched_articles = [enrich_article_data(article) for article in parsed_articles]
 
-        # 3. Store articles to avoid duplicates
+        # Store articles to avoid duplicates
         new_articles = store_articles(enriched_articles)
-        logger.info(f"Stored {len(new_articles)} new articles (after deduplication).")
+        num_new = len(new_articles)
+        num_skipped = num_parsed - num_new
+
+        logger.info(
+            f"Email {i}/{total_emails}: Added {num_new} new articles, "
+            f"skipped {num_skipped} duplicates."
+        )
 
         all_new_articles.extend(new_articles)
 
-    # If no new articles and not forced, exit
-    if not all_new_articles and not force_summary:
-        logger.info("No new articles to summarize. Exiting.")
+    # After processing all emails
+    total_new = len(all_new_articles)
+    if total_new == 0 and not force_summary:
+        logger.info("No new articles added and not forced to summarize. Exiting.")
         return
 
-    # If forced, but no new articles, try summarizing all existing articles
-    if not all_new_articles and force_summary:
+    # If forced, but no new articles, summarize all stored articles
+    if total_new == 0 and force_summary:
         logger.info("No new articles found, but --force was used. Summarizing all stored articles.")
         all_articles = get_all_articles()
         if not all_articles:
@@ -49,10 +63,11 @@ def main():
     else:
         articles_to_summarize = all_new_articles
 
-    # 4. Summarize articles
+    # Summarize articles
+    logger.info("Summarizing articles...")
     summary = summarize_articles(articles_to_summarize)
 
-    # 5. Generate report
+    # Generate report
     report_path = generate_summary_report(summary, articles_to_summarize)
     logger.info(f"Summary report generated at: {report_path}")
 
