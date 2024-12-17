@@ -1,27 +1,32 @@
 # src/renderer/report_generator.py
 
 import datetime
+import os
 
-def generate_summary_report(summary: str, articles: list, output_dir: str = "reports") -> str:
+def generate_summary_report(summary: str, articles: list, output_dir: str = "reports", filename_prefix: str = None) -> str:
     """
     Generate a Markdown report with the summary and list of articles with citations,
-    saving each report with a unique timestamp in the filename.
+    saving each report with a unique timestamp in the filename within the specified reports directory.
 
     Args:
         summary (str): The summarized text.
         articles (list): List of article dictionaries.
-        output_dir (str): Directory to save the summary report.
+        output_dir (str): Directory to save the summary report (default is 'reports').
+        filename_prefix (str): Optional prefix to include in the filename, before the timestamp.
 
     Returns:
         str: Path to the generated report.
     """
-    # Ensure output directory ends with a slash and timestamp-based filename
+    # Generate a timestamp for the filename
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    filename = f"summary_report_{timestamp}.md"
-    output_path = f"{output_dir}/{filename}"
+    if filename_prefix:
+        filename = f"{filename_prefix}_summary_report_{timestamp}.md"
+    else:
+        filename = f"summary_report_{timestamp}.md"
 
-    # Create the directory if it doesn't exist
-    import os
+    output_path = os.path.join(output_dir, filename)
+
+    # Create the output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
 
     with open(output_path, 'w', encoding='utf-8') as f:
@@ -34,7 +39,9 @@ def generate_summary_report(summary: str, articles: list, output_dir: str = "rep
             source = article.get("source", "Unknown source")
             doi = article.get("doi", "")
             link = article.get("link", "")
-            citation = f"**Article {i}**: {authors}. _{source}_."
+
+            # Include the title right after the article number
+            citation = f"**Article {i}:** *{title}* by {authors}. _{source}_."
             if doi:
                 citation += f" DOI: {doi}."
             if link:

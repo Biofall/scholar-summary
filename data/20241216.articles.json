@@ -1,5 +1,143 @@
 [
   {
+    "title": "A neural circuit for context-dependent multimodal signaling in Drosophila",
+    "link": "https://www.biorxiv.org/content/10.1101/2024.12.04.625245.full.pdf",
+    "snippet": "AbstractMany animals, including humans, produce multimodal displays by combining acoustic with visual or vibratory signals [1–4]. However, the neural circuits that coordinate the production of multiple signals in a context-dependent manner are unknown. Multimodal behaviors could be produced by parallel circuits that independently integrate the external cues that trigger each signal. We find that multimodal signals inDrosophilaare driven by a single circuit that integrates external sensory cues with internal motivational state and circuit dynamics.Drosophilamales produce air-borne song and substrate-borne vibration during courtship and previous studies have identified neurons that drive courtship and singing, but the contexts and circuits that drive vibrations and coordinate multimodal signaling were not known [5–11]. We show that males produce song and vibration in distinct, largely non-overlapping contexts and that brain neurons that drive song also drive vibrations with cell-type specific dynamics and via separate pre-motor pathways. This circuit also coordinates multimodal signaling with ongoing behavior, namely locomotion, to drive vibrations only when the male’s vibrations can reach the female. A shared circuit facilitates the control of signal dynamics by external cues and motivational state through shared mechanisms like recurrence and mutual inhibition. A proof-of-concept circuit model shows that these motifs are sufficient to explain the behavioral dynamics. Our work shows how simple motifs can be combined in a single neural circuit to select and coordinate multiple behaviors.",
+    "source": "bioRxiv",
+    "authors": [
+      "Elsa Steinfath",
+      "Afshin Khalili",
+      "Melanie Stenger",
+      "Bjarne L. Schultze",
+      "Sarath Nair Ravindran",
+      "Kimia Alizadeh",
+      "Jan Clemens"
+    ],
+    "publication_date": "2024-12-07",
+    "doi": "10.1101/2024.12.04.625245"
+  },
+  {
+    "title": "Synapse profiling of identified neurons in the Drosophila brain",
+    "link": "https://www.biorxiv.org/content/biorxiv/early/2024/12/05/2024.12.02.626511.full.pdf",
+    "snippet": "AbstractSynapses are highly heterogeneous even within a single motor neuron inDrosophila melanogaster. In the central nervous system (CNS), the degree of stereotypy in the synaptic structure of specific neurons across individuals remains largely unexplored, due to the significant effort required to analyze multiple brain samples. Utilizing the split-GFP fluorescence-tagging, we achieved endogenous labeling of the presynaptic active zone (AZ) scaffold protein Bruchpilot (Brp) in a cell-type-specific manner. This strategy allowed us to devise a high-throughput quantification pipeline to characterize and compare cell-type-specific AZ structures across individuals. We found that multiple structural parameters such as Brp localization and AZ size revealed significant intracellular synaptic heterogeneity and cell-type-dependent stereotypy in the mushroom body (MB) circuit. Furthermore, we found that the AZ organization can be surprisingly local, even at the neighboring AZ level. These findings therefore suggest multi-level organizations of AZs, from neighboring synapses to across individuals.TeaserState-of-art fluorescence-based imaging technique and high-throughput analysis revealed previously unidentified synaptic organizations.",
+    "source": "bioRxiv",
+    "authors": [
+      "Hongyang Wu",
+      "Yoh Maekawa",
+      "Sayaka Eno",
+      "Shu Kondo",
+      "Nobuhiro Yamagata",
+      "Hiromu Tanimoto"
+    ],
+    "publication_date": "2024-12-05",
+    "doi": "10.1101/2024.12.02.626511"
+  },
+  {
+    "title": "Octopamine signals coordinate the spatial pattern of presynaptic machineries in the Drosophila mushroom bodies",
+    "link": "https://www.biorxiv.org/content/biorxiv/early/2024/12/05/2024.12.02.626512.full.pdf",
+    "snippet": "SUMMARYNeurons need to adjust synaptic output according to the targets. However, the intracellular heterogeneity of synaptic machinery is scarcely reported in the central nervous system, and its regulatory mechanism remain unknown. Applying the CRISPR/Cas9-mediated split-GFP tagging, we devised cell-type specific fluorescent labeling of the endogenous active zone scaffold protein, Bruchpilot (Brp). This technology enabled the quantification of intracellular diversity of presynaptic structures within the Kenyon cells of theDrosophilamushroom bodies. We found that the accumulation of Brp at active zones is strikingly heterogenous among the compartments of Kenyon cell axon terminals. Mechanistically, the localized octopaminergic signaling along Kenyon cell terminals regulate the Brp heterogeneity via Octβ2R and cAMP signaling. We further found that acute food deprivation reduced the compartmental heterogeneity of Brp accumulation in an octopaminergic signaling-dependent manner. This synaptic regulation explains how the mushroom body integrates changing physiological states.",
+    "source": "bioRxiv",
+    "authors": [
+      "Hongyang Wu",
+      "Sayaka Eno",
+      "Kyoko Jinnai",
+      "Yoh Maekawa",
+      "Kokoro Saito",
+      "Ayako Abe",
+      "Darren W Williams",
+      "Nobuhiro Yamagata",
+      "Shu Kondo",
+      "Hiromu Tanimoto"
+    ],
+    "publication_date": "2024-12-05",
+    "doi": "10.1101/2024.12.02.626512"
+  },
+  {
+    "title": "Molecular characterization and sub-retinal transplantation of hypoimmunogenic human retinal sheets in a minipig model of severe photoreceptor degeneration",
+    "link": "https://journals.biologists.com/dev/article/151/23/dev203071/363247",
+    "snippet": "ABSTRACT\n               Retinal degenerative diseases affect millions of people worldwide, and legal blindness is generally associated with the loss of cone photoreceptors located in the central region of the retina called the macula. Currently, there is no treatment to replace the macula. Addressing this unmet need, we employed control isogenic and hypoimmunogenic induced pluripotent stem cell lines to generate spontaneously polarized retinal sheets (RSs). RSs were enriched in retinal progenitor and cone precursor cells, which could differentiate into mature S- and M/L-cones in long-term cultures. Single-cell RNA-seq analysis showed that RSs recapitulate the ontogeny of the developing human retina. Isolation of neural rosettes for sub-retinal transplantation effectively eliminated unwanted cells such as RPE cells. In a porcine model of chemically induced retinal degeneration, grafts integrated the host retina and formed a new, yet immature, photoreceptor layer. In one transplanted animal, functional and immunohistochemical assays suggest that grafts exhibited responsiveness to light stimuli and established putative synaptic connections with host bipolar neurons. This study underscores the potential and challenges of RSs for clinical applications.",
+    "source": "Development",
+    "authors": [
+      "Andrea Barabino",
+      "Katia Mellal",
+      "Rimi Hamam",
+      "Anna Polosa",
+      "May Griffith",
+      "Jean-François Bouchard",
+      "Ananda Kalevar",
+      "Roy Hanna",
+      "Gilbert Bernier"
+    ],
+    "publication_date": "2024-12-01",
+    "doi": "10.1242/dev.203071"
+  },
+  {
+    "title": "Protective effect of Apelin-13 on oxygen and glucose deprivation induced-damage in retinal ganglion cells cultured in vitro",
+    "link": "https://link.springer.com/article/10.1007/s10735-024-10279-1",
+    "snippet": "Ischemic-anoxic injury plays an important role in the pathophysiology of diabetes retinopathy, optic neuropathy, even glaucoma and other ocular diseases. It may ultimately cause damage to neuronal death like retinal ganglion cells (RGCs) and …",
+    "source": "Journal of Molecular Histology",
+    "authors": [
+      "Li Dai",
+      "Linlin Luo",
+      "Ya Zhang",
+      "Min Fu",
+      "Ling Yu"
+    ],
+    "publication_date": "2024-12-04",
+    "doi": "10.1007/s10735-024-10279-1"
+  },
+  {
+    "title": "The sparse driver system for in vivo single-cell labeling and manipulation in Drosophila",
+    "link": "https://www.biorxiv.org/content/10.1101/2024.12.02.626507.full.pdf",
+    "snippet": "SUMMARYIn this protocol, we introduce a sparse driver system for cell-type specific single-cell labeling and manipulation inDrosophila, enabling complete and simultaneous expression of multiple transgenes in the same cells. The system precisely controls expression probability and sparsity via mutantFRTsites with reduced recombination efficiency and tunable FLP levels adjusted by heat-shock durations. We demonstrate that this generalizable toolkit enables tunable sparsity, multi-color staining, single-cell trans-synaptic tracing, single-cell manipulation, andin vivoanalysis of cell-autonomous gene function.For details on the use and execution of this protocol, please refer to Xu et al. 2024.GRAPHICAL ABSTRACT",
+    "source": "bioRxiv",
+    "authors": [
+      "Chuanyun Xu",
+      "Liqun Luo"
+    ],
+    "publication_date": "2024-12-04",
+    "doi": "10.1101/2024.12.02.626507"
+  },
+  {
+    "title": "Diverting glial glycolytic flux towards neurons is a memory-relevant role of Drosophila CRH-like signalling",
+    "link": "https://www.nature.com/articles/s41467-024-54778-x",
+    "snippet": "AbstractAn essential role of glial cells is to comply with the large and fluctuating energy needs of neurons. Metabolic adaptation is integral to the acute stress response, suggesting that glial cells could be major, yet overlooked, targets of stress hormones. Here we show that Dh44 neuropeptide, Drosophila homologue of mammalian corticotropin-releasing hormone (CRH), acts as an experience-dependent metabolic switch for glycolytic output in glia. Dh44 released by dopamine neurons limits glial fatty acid synthesis and build-up of lipid stores. Although basally active, this hormonal axis is acutely stimulated following learning of a danger-predictive cue. This results in transient suppression of glial anabolic use of pyruvate, sparing it for memory-relevant energy supply to neurons. Diverting pyruvate destination may dampen the need to upregulate glial glycolysis in response to increased neuronal demand. Although beneficial for the energy efficiency of memory formation, this mechanism reveals an ongoing competition between neuronal fuelling and glial anabolism.",
+    "source": "Nature Communications",
+    "authors": [
+      "Raquel Francés",
+      "Yasmine Rabah",
+      "Thomas Preat",
+      "Pierre-Yves Plaçais"
+    ],
+    "publication_date": "2024-12-02",
+    "doi": "10.1038/s41467-024-54778-x"
+  },
+  {
+    "title": "Temperature cues are integrated in a flexible circadian neuropeptidergic feedback circuit to remodel sleep-wake patterns in flies",
+    "link": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002918",
+    "snippet": "Organisms detect temperature signals through peripheral neurons, which relay them to central circadian networks to drive adaptive behaviors. Despite recent advances in Drosophila research, how circadian circuits integrate temperature cues with circadian signals to regulate sleep/wake patterns remains unclear. In this study, we used the FlyWire brain electron microscopy connectome to map neuronal connections, identifying lateral posterior neurons LPNs as key nodes for integrating temperature information into the circadian network. LPNs receive input from both circadian and temperature-sensing neurons, promoting sleep behavior. Through connectome analysis, genetic manipulation, and behavioral assays, we demonstrated that LPNs, downstream of thermo-sensitive anterior cells (ACs), suppress activity-promoting lateral dorsal neurons LNds via the AstC pathway, inducing sleep Disrupting LPN-LNd communication through either AstCR1 RNAi in LNds or in an AstCR1 mutant significantly impairs the heat-induced reduction in the evening activity peak. Conversely, optogenetic calcium imaging and behavioral assays revealed that cold-activated LNds subsequently stimulate LPNs through NPF-NPFR signaling, establishing a negative feedback loop. This feedback mechanism limits LNd activation to appropriate levels, thereby fine-tuning the evening peak increase at lower temperatures. In conclusion, our study constructed a comprehensive connectome centered on LPNs and identified a novel peptidergic circadian feedback circuit that coordinates temperature and circadian signals, offering new insights into the regulation of sleep patterns in Drosophila.",
+    "source": "PLOS Biology",
+    "authors": [
+      "Xin Yuan",
+      "Hailiang Li",
+      "Fang Guo"
+    ],
+    "publication_date": "2024-12-02",
+    "doi": "10.1371/journal.pbio.3002918"
+  },
+  {
+    "title": "Ants integrate proprioception as well as visual context and efference copies to make robust predictions",
+    "link": "https://www.nature.com/articles/s41467-024-53856-4",
+    "snippet": "Forward models are mechanisms enabling an agent to predict the sensory outcomes of its actions. They can be implemented through efference copies: copies of motor signals inhibiting the expected sensory stimulation, literally canceling the perceptual …",
+    "source": "Nature Communications",
+    "authors": [
+      "Océane Dauzere-Peres",
+      "Antoine Wystrach"
+    ],
+    "publication_date": "2024-12-01",
+    "doi": "10.1038/s41467-024-53856-4"
+  },
+  {
     "title": "The Power of Intellectual Property and Innovation in Solving Global Health Challenges",
     "link": "https://www2.itif.org/2024-i4h-ip-innovation-health.pdf",
     "snippet": "… ) is addressing the challenge through her patented wearable medical device technology, which uses … Witnessing her mother’s struggle with the chronic pain associated with osteoarthritis and the … What if we could vaccinate against cocaine …",
@@ -9,8 +147,7 @@
       "Bryan A. Liang"
     ],
     "publication_date": "2012-12-01",
-    "doi": "10.1016/j.drudis.2012.06.012",
-    "added_timestamp": "2024-12-16 15:33:26"
+    "doi": "10.1016/j.drudis.2012.06.012"
   },
   {
     "title": "Gambling harms, stigmatisation and discrimination: A qualitativenaturalisticforum analysis",
@@ -24,8 +161,7 @@
       "Joanne Lloyd"
     ],
     "publication_date": "2024-12-10",
-    "doi": "10.1371/journal.pone.0315377",
-    "added_timestamp": "2024-12-16 15:33:32"
+    "doi": "10.1371/journal.pone.0315377"
   },
   {
     "title": "Associations between attentional biases for emotional images and rumination indepression",
@@ -40,8 +176,7 @@
       "Christopher R. Sears"
     ],
     "publication_date": "2024-12-11",
-    "doi": "10.1080/02699931.2024.2434158",
-    "added_timestamp": "2024-12-16 15:33:32"
+    "doi": "10.1080/02699931.2024.2434158"
   },
   {
     "title": "Neural Circuits of Fear andAnxiety: Insights from a Neuroethological Perspective",
@@ -53,8 +188,7 @@
       "Newton Sabino Canteras"
     ],
     "publication_date": "2024-12-11",
-    "doi": "10.1152/physiol.00042.2024",
-    "added_timestamp": "2024-12-16 15:33:32"
+    "doi": "10.1152/physiol.00042.2024"
   },
   {
     "title": "Die subakuten Effekte des Psilocybin auf Persönlichkeit, Achtsamkeit und die Auflösung des Selbst",
@@ -65,8 +199,7 @@
       "Albert Lehr"
     ],
     "publication_date": "None-01-01",
-    "doi": "10.53846/goediss-10859",
-    "added_timestamp": "2024-12-16 15:33:32"
+    "doi": "10.53846/goediss-10859"
   },
   {
     "title": "Teaching via LLM-enhanced simulations: Authenticity and barriers to suspension of disbelief",
@@ -81,9 +214,8 @@
       "Gong Wang",
       "Haomin Zhang"
     ],
-    "publication_date": "2025-04-01",
-    "doi": "10.1016/j.iheduc.2024.100990",
-    "added_timestamp": "2024-12-16 15:33:32"
+    "publication_date": "2024-12-01",
+    "doi": "10.1016/j.iheduc.2024.100990"
   },
   {
     "title": "DigitalPsychiatry: Opportunities, Challenges, and Future Directions",
@@ -95,8 +227,7 @@
       "Katharyn Hanson"
     ],
     "publication_date": "2023-01-04",
-    "doi": "10.4324/9781315203119-56",
-    "added_timestamp": "2024-12-16 15:33:33"
+    "doi": "10.4324/9781315203119-56"
   },
   {
     "title": "Hardware-Based Interference Suppression Techniques for OPM-MEG: A Review",
@@ -115,8 +246,7 @@
       "Ruonan Wang"
     ],
     "publication_date": "2024-01-01",
-    "doi": "10.1109/jsen.2024.3509679",
-    "added_timestamp": "2024-12-16 15:33:37"
+    "doi": "10.1109/jsen.2024.3509679"
   },
   {
     "title": "Wearabledevices inpsychiatry: A novel way ofmental healthmonitoring",
@@ -129,8 +259,7 @@
       "D Sangolkar",
       "I Ahluwalia…"
     ],
-    "publication_date": "",
-    "added_timestamp": "2024-12-16 15:33:47"
+    "publication_date": ""
   },
   {
     "title": "DigitalPsychiatry, Revisited",
@@ -141,8 +270,7 @@
       "Hale G. Smith"
     ],
     "publication_date": "1951-10-01",
-    "doi": "10.2307/277251",
-    "added_timestamp": "2024-12-16 15:33:47"
+    "doi": "10.2307/277251"
   },
   {
     "title": "Digital Technologies Tracking Active and Passive Data Collection in Depressive Disorders: Lessons Learned From a Case Series",
@@ -166,8 +294,7 @@
       "Mark A. Frye"
     ],
     "publication_date": "2024-11-01",
-    "doi": "10.1097/pra.0000000000000820",
-    "added_timestamp": "2024-12-16 15:33:47"
+    "doi": "10.1097/pra.0000000000000820"
   },
   {
     "title": "Developing and marketing mobile health applications for low-income working adults in Hong Kong",
@@ -179,8 +306,7 @@
       "Yuyuan Zhuo"
     ],
     "publication_date": "2024-12-12",
-    "doi": "10.1108/ijphm-08-2024-0086",
-    "added_timestamp": "2024-12-16 15:33:47"
+    "doi": "10.1108/ijphm-08-2024-0086"
   },
   {
     "title": "Assessing Walkability in Urban Environments: A Comprehensive Overview",
@@ -192,8 +318,7 @@
       "Giovanna Di Marzo Serugendo"
     ],
     "publication_date": "2024-12-09",
-    "doi": "10.20944/preprints202412.0689.v1",
-    "added_timestamp": "2024-12-16 15:33:47"
+    "doi": "10.20944/preprints202412.0689.v1"
   },
   {
     "title": "SUPER: Augmenting human-machine teaming in defence with biofeedback-enhanced brain-computer interfaces-preliminary results",
@@ -204,8 +329,7 @@
       "Mohsen Moghaddam"
     ],
     "publication_date": "2023-01-01",
-    "doi": "10.1007/978-3-031-44373-2_22",
-    "added_timestamp": "2024-12-16 15:33:49"
+    "doi": "10.1007/978-3-031-44373-2_22"
   },
   {
     "title": "ACNP 63rd Annual Meeting: Panels, Mini-Panels and Study Groups",
@@ -216,8 +340,7 @@
       "M PANEL"
     ],
     "publication_date": "2024-12-01",
-    "doi": "10.1038/s41386-024-02010-1",
-    "added_timestamp": "2024-12-16 15:33:49"
+    "doi": "10.1038/s41386-024-02010-1"
   },
   {
     "title": "Failure prediction during 3D concrete printing: a numerical simulation aproach",
@@ -231,8 +354,7 @@
       "Dashnor Hoxha"
     ],
     "publication_date": "2023-04-12",
-    "doi": "10.1617/s11527-023-02167-z",
-    "added_timestamp": "2024-12-16 15:33:55"
+    "doi": "10.1617/s11527-023-02167-z"
   },
   {
     "title": "Enhancing the Psychological Well-being and Sleep Quality of Healthcare Providers with aMultimodal1 Psychological Support Program: A Randomized Controlled …",
@@ -243,8 +365,7 @@
       "Joana AINUSON-QUAMPAH"
     ],
     "publication_date": "2023-05-25",
-    "doi": "10.46829/hsijournal.2023.6.4.1.417-418",
-    "added_timestamp": "2024-12-16 15:34:12"
+    "doi": "10.46829/hsijournal.2023.6.4.1.417-418"
   },
   {
     "title": "The effect of a one-time mindfulness intervention on body and mind in healthy adolescents usingmultimodalmeasurements",
@@ -260,8 +381,7 @@
       "Tony T. Yang"
     ],
     "publication_date": "2023-10-01",
-    "doi": "10.1016/j.jaac.2023.09.385",
-    "added_timestamp": "2024-12-16 15:34:12"
+    "doi": "10.1016/j.jaac.2023.09.385"
   },
   {
     "title": "Multimodaldefect analysis and application of virtual machining for solid-state manufactured aluminium structure",
@@ -281,8 +401,7 @@
       "Anna M. Paradowska"
     ],
     "publication_date": "2024-12-10",
-    "doi": "10.1007/s40964-024-00904-6",
-    "added_timestamp": "2024-12-16 15:34:12"
+    "doi": "10.1007/s40964-024-00904-6"
   },
   {
     "title": "Different doses of epidural morphine combined withmultimodalanalgesia strategies for postpartum pain management: study protocol for a single-centre, double-blind …",
@@ -294,8 +413,7 @@
       "Xuemei Lin"
     ],
     "publication_date": "2024-12-01",
-    "doi": "10.1136/bmjopen-2024-085012",
-    "added_timestamp": "2024-12-16 15:34:12"
+    "doi": "10.1136/bmjopen-2024-085012"
   },
   {
     "title": "Developing a Translational Research Framework forMDD: Combining Biomolecular Mechanisms with a Spiraling Risk Factor Model",
@@ -309,8 +427,7 @@
       "Meghan E. Keough"
     ],
     "publication_date": "2006-09-01",
-    "doi": "10.1016/j.brat.2006.06.001",
-    "added_timestamp": "2024-12-16 15:34:12"
+    "doi": "10.1016/j.brat.2006.06.001"
   },
   {
     "title": "Acute effects of visual and olfactory nature stimuli on task performance",
@@ -324,8 +441,7 @@
       "Jay E. Maddock"
     ],
     "publication_date": "2024-12-11",
-    "doi": "10.21203/rs.3.rs-5410735/v1",
-    "added_timestamp": "2024-12-16 15:34:12"
+    "doi": "10.21203/rs.3.rs-5410735/v1"
   },
   {
     "title": "The fine line between relief and risk: new insights into postoperative delirium",
@@ -337,8 +453,7 @@
       "Federico Bilotta"
     ],
     "publication_date": "2024-12-01",
-    "doi": "10.1016/j.bja.2024.10.006",
-    "added_timestamp": "2024-12-16 15:34:12"
+    "doi": "10.1016/j.bja.2024.10.006"
   },
   {
     "title": "Elevating Virtual Reality Experiences with Olfactory Integration: A Preliminary Review",
@@ -356,8 +471,7 @@
       "Carolina Horta Andrade"
     ],
     "publication_date": "2024-12-09",
-    "doi": "10.5753/jbcs.2024.4632",
-    "added_timestamp": "2024-12-16 15:34:12"
+    "doi": "10.5753/jbcs.2024.4632"
   },
   {
     "title": "Integrating accelerometry, GPS, GIS and molecular data to investigate mechanistic pathways of the urban environmental exposome and cognitive outcomes in older …",
@@ -385,8 +499,7 @@
       "Bernadette McGuinness"
     ],
     "publication_date": "2024-12-01",
-    "doi": "10.1136/bmjopen-2024-085318",
-    "added_timestamp": "2024-12-16 15:34:12"
+    "doi": "10.1136/bmjopen-2024-085318"
   },
   {
     "title": "War exposure, daily stressors, and mental health 15 years on: implications of an ecological framework for addressing the mental health of conflict-affected populations",
@@ -398,8 +511,7 @@
       "A. Rasmussen"
     ],
     "publication_date": "2024-01-01",
-    "doi": "10.1017/s2045796024000830",
-    "added_timestamp": "2024-12-16 15:34:12"
+    "doi": "10.1017/s2045796024000830"
   },
   {
     "title": "Stresstestingdeep learningmodels for prostate cancer detection on biopsies and surgical specimens",
@@ -428,8 +540,7 @@
       "Anant Madabhushi"
     ],
     "publication_date": "2024-12-11",
-    "doi": "10.1002/path.6373",
-    "added_timestamp": "2024-12-16 15:34:33"
+    "doi": "10.1002/path.6373"
   },
   {
     "title": "Analyzing the Impact of Binaural Beats onAnxietyLevels by a New Method Based on Denoised Harmonic Subtraction and Transient Temporal Feature Extraction",
@@ -444,8 +555,7 @@
       "Nicu Bizon"
     ],
     "publication_date": "2024-12-10",
-    "doi": "10.3390/bioengineering11121251",
-    "added_timestamp": "2024-12-16 15:34:33"
+    "doi": "10.3390/bioengineering11121251"
   },
   {
     "title": "DetectingStressfrom Competitive Gaming usingMachine Learning-Based ECGClassification",
@@ -460,8 +570,7 @@
       "Hamza Ghazanfar Toor"
     ],
     "publication_date": "2024-10-15",
-    "doi": "10.1109/hite63532.2024.10777106",
-    "added_timestamp": "2024-12-16 15:34:33"
+    "doi": "10.1109/hite63532.2024.10777106"
   },
   {
     "title": "Machine LearningAlgorithms to PredictDepressionin Older Adults in China: A Crosssectional Study",
@@ -474,8 +583,7 @@
       "Wei Chen"
     ],
     "publication_date": "2024-07-22",
-    "doi": "10.1186/s12877-024-05214-8",
-    "added_timestamp": "2024-12-16 15:34:33"
+    "doi": "10.1186/s12877-024-05214-8"
   },
   {
     "title": "SpeechDepressionRecognition from the Self-reference Effect Using LSTM with ResNet",
@@ -488,8 +596,7 @@
       "L. Ganesan"
     ],
     "publication_date": "2022-01-01",
-    "doi": "10.32604/iasc.2022.018030",
-    "added_timestamp": "2024-12-16 15:34:33"
+    "doi": "10.32604/iasc.2022.018030"
   },
   {
     "title": "Machine LearningModel Discriminate Ischemic Heart Disease Using Breathome Analysis",
@@ -510,8 +617,7 @@
       "Philipp Kopylov"
     ],
     "publication_date": "2024-12-11",
-    "doi": "10.3390/biomedicines12122814",
-    "added_timestamp": "2024-12-16 15:34:33"
+    "doi": "10.3390/biomedicines12122814"
   },
   {
     "title": "Associations between NIH Toolbox Emotion Battery measures and previous suicide attempt inbipolarI disorder",
@@ -535,8 +641,7 @@
       "Vincent A. Magnotta"
     ],
     "publication_date": "2024-12-01",
-    "doi": "10.1016/j.jad.2024.12.040",
-    "added_timestamp": "2024-12-16 15:34:33"
+    "doi": "10.1016/j.jad.2024.12.040"
   },
   {
     "title": "Advancements inMachine LearningandDeep Learningfor Early Detection and Management of Mental Health Disorder",
@@ -549,8 +654,7 @@
       "RN Kandala…"
     ],
     "publication_date": "2004-10-22",
-    "doi": "10.1002/0470010851",
-    "added_timestamp": "2024-12-16 15:34:33"
+    "doi": "10.1002/0470010851"
   },
   {
     "title": "Predictive Modeling of Hospital Readmission of Schizophrenic Patients in a Spanish Region Combining Particle Swarm Optimization andMachine Learning…",
@@ -567,8 +671,7 @@
       "María-Luisa Pérez-Delgado"
     ],
     "publication_date": "2024-12-11",
-    "doi": "10.3390/biomimetics9120752",
-    "added_timestamp": "2024-12-16 15:34:33"
+    "doi": "10.3390/biomimetics9120752"
   },
   {
     "title": "Gender identification of chicks using vocalisation signals, artificial intelligence andmachine learningtechniques: current status and future prospects",
@@ -587,8 +690,7 @@
       "Alokesh Ghosh"
     ],
     "publication_date": "2024-12-11",
-    "doi": "10.1080/00439339.2024.2438351",
-    "added_timestamp": "2024-12-16 15:34:33"
+    "doi": "10.1080/00439339.2024.2438351"
   },
   {
     "title": "From Coffee in Mumbai to Marmite in Scotland: Journeying through the Sensory Stories of People Living with Dementia and Their Carers",
@@ -603,8 +705,7 @@
       "A. Mason"
     ],
     "publication_date": "2006-04-01",
-    "doi": "10.1016/j.jrurstud.2005.08.007",
-    "added_timestamp": "2024-12-16 15:34:49"
+    "doi": "10.1016/j.jrurstud.2005.08.007"
   },
   {
     "title": "Service Delivery Redesign for Noncommunicable Disease Management: Assessment of Needs and Solutions Through a Co-Creation Process in Argentina",
@@ -627,8 +728,7 @@
       "Ezequiel García-Elorrio"
     ],
     "publication_date": "2024-12-11",
-    "doi": "10.9745/ghsp-d-24-00208",
-    "added_timestamp": "2024-12-16 15:34:49"
+    "doi": "10.9745/ghsp-d-24-00208"
   },
   {
     "title": "Ramon Cuevas-Trisán, MD",
@@ -639,8 +739,7 @@
       "Vance W. Elliott"
     ],
     "publication_date": "2005-05-01",
-    "doi": "10.33589/15.3.0095",
-    "added_timestamp": "2024-12-16 15:34:49"
+    "doi": "10.33589/15.3.0095"
   },
   {
     "title": "Program Profile",
@@ -653,8 +752,7 @@
       "Alice Blackwell White"
     ],
     "publication_date": "2004-01-01",
-    "doi": "10.1111/j.174-1617.2004.tb00639.x",
-    "added_timestamp": "2024-12-16 15:34:49"
+    "doi": "10.1111/j.174-1617.2004.tb00639.x"
   },
   {
     "title": "Cluster, migraine headache strongly linked to circadian rhythm",
@@ -675,8 +773,7 @@
       "Mark J. Burish"
     ],
     "publication_date": "2023-05-30",
-    "doi": "10.1212/wnl.0000000000207240",
-    "added_timestamp": "2024-12-16 15:34:49"
+    "doi": "10.1212/wnl.0000000000207240"
   },
   {
     "title": "1 Turning Back to Nature: Foucault and the Practice of Animality",
@@ -687,8 +784,7 @@
       "Matthew Calarco"
     ],
     "publication_date": "2024-12-31",
-    "doi": "10.1515/9781399526005-003",
-    "added_timestamp": "2024-12-16 15:34:51"
+    "doi": "10.1515/9781399526005-003"
   },
   {
     "title": "Home Education: Interconnected Dynamics",
@@ -703,8 +799,7 @@
       "Mihai V. Micea"
     ],
     "publication_date": "2017-10-01",
-    "doi": "10.1109/icstcc.2017.8107029",
-    "added_timestamp": "2024-12-16 15:34:51"
+    "doi": "10.1109/icstcc.2017.8107029"
   },
   {
     "title": "Psychometric Evaluation of the Dutch Version of theSubstance UseRecovery Evaluator (SURE-NL)",
@@ -722,8 +817,7 @@
       "Cleo Lina Crunelle"
     ],
     "publication_date": "2024-11-08",
-    "doi": "10.1159/000541584",
-    "added_timestamp": "2024-12-16 15:34:55"
+    "doi": "10.1159/000541584"
   },
   {
     "title": "Temporal Dynamics at the Neurobehavioral Interface: In Search of a Common Currency",
@@ -734,8 +828,7 @@
       "Noah Chuipka"
     ],
     "publication_date": "None-01-01",
-    "doi": "10.22215/etd/2024-16206",
-    "added_timestamp": "2024-12-16 15:34:55"
+    "doi": "10.22215/etd/2024-16206"
   },
   {
     "title": "DevelopingDigital Biomarkersof Early Childhood Mental Health usingMultimodalSensor Data",
@@ -746,8 +839,7 @@
       "Shannon N. Lenze"
     ],
     "publication_date": "2017-07-01",
-    "doi": "10.1016/j.chc.2017.02.001",
-    "added_timestamp": "2024-12-16 15:35:00"
+    "doi": "10.1016/j.chc.2017.02.001"
   },
   {
     "title": "…Multimodaland Multiscale Method for Intelligent Operation and Maintenance of Transformers Based on the Improved Deep Visual Large Model DETR+ X andDigital…",
@@ -761,8 +853,7 @@
       "Shijie Song"
     ],
     "publication_date": "2024-12-12",
-    "doi": "10.21203/rs.3.rs-5218555/v1",
-    "added_timestamp": "2024-12-16 15:35:00"
+    "doi": "10.21203/rs.3.rs-5218555/v1"
   },
   {
     "title": "Panoramic mapping and interaction technology between real-world images and power grid real-world twins",
@@ -778,8 +869,7 @@
       "zhou Aihua"
     ],
     "publication_date": "2024-12-11",
-    "doi": "10.1117/12.3052780",
-    "added_timestamp": "2024-12-16 15:35:00"
+    "doi": "10.1117/12.3052780"
   },
   {
     "title": "A Novel ECG-Based Approach for ClassifyingPsychiatricDisorders: Leveraging Wavelet Scattering Networks",
@@ -793,8 +883,7 @@
       "U. Rajendra Acharya"
     ],
     "publication_date": "2024-12-01",
-    "doi": "10.1016/j.medengphy.2024.104275",
-    "added_timestamp": "2024-12-16 15:35:24"
+    "doi": "10.1016/j.medengphy.2024.104275"
   },
   {
     "title": "Leveraging Multimodal Machine Learning for Predictive Diagnostics of AdolescentMental HealthDisorders",
@@ -805,8 +894,7 @@
       "A Rao"
     ],
     "publication_date": "2024-09-28",
-    "doi": "10.56726/irjmets61247",
-    "added_timestamp": "2024-12-16 15:35:24"
+    "doi": "10.56726/irjmets61247"
   },
   {
     "title": "Automatic Sleep Staging with a Convolutional Bidirectional Gated Recurrent Unit Model Using Non-WearableDevice Data",
@@ -821,8 +909,7 @@
       "Zhe Zhou"
     ],
     "publication_date": "2024-10-18",
-    "doi": "10.1145/3703847.3703873",
-    "added_timestamp": "2024-12-16 15:35:24"
+    "doi": "10.1145/3703847.3703873"
   },
   {
     "title": "A visual analysis based on CiteSpace for Aromatherapy's impact onmental health",
@@ -837,8 +924,7 @@
       "Wenbin Gao"
     ],
     "publication_date": "2024-10-18",
-    "doi": "10.1145/3703847.3703890",
-    "added_timestamp": "2024-12-16 15:35:24"
+    "doi": "10.1145/3703847.3703890"
   },
   {
     "title": "Frontiers inneuro-informed approaches: a comprehensive review of immersive andneurosciencetechnologies in built environment research",
@@ -852,8 +938,7 @@
       "Joshua A. Larbi"
     ],
     "publication_date": "2024-12-11",
-    "doi": "10.1080/00038628.2024.2438185",
-    "added_timestamp": "2024-12-16 15:35:24"
+    "doi": "10.1080/00038628.2024.2438185"
   },
   {
     "title": "Revolutionizing Preventive Care: How AI is Shaping the Future of Health Maintenance",
@@ -865,8 +950,7 @@
       "Amanpreet Kaur"
     ],
     "publication_date": "2023-11-01",
-    "doi": "10.1109/rmkmate59243.2023.10368981",
-    "added_timestamp": "2024-12-16 15:35:24"
+    "doi": "10.1109/rmkmate59243.2023.10368981"
   },
   {
     "title": "Research on night stress management and sleep staging based on PPG signal of smartwatch",
@@ -884,8 +968,7 @@
       "Songlei Zhang"
     ],
     "publication_date": "2024-10-18",
-    "doi": "10.1145/3703847.3703854",
-    "added_timestamp": "2024-12-16 15:35:24"
+    "doi": "10.1145/3703847.3703854"
   },
   {
     "title": "Gesture sonification for enhancing agency: an exploratory study on healthy participants",
@@ -900,8 +983,7 @@
       "Carmelo Mario Vicario"
     ],
     "publication_date": "2021-04-06",
-    "doi": "10.3390/ijerph18073840",
-    "added_timestamp": "2024-12-16 15:35:24"
+    "doi": "10.3390/ijerph18073840"
   },
   {
     "title": "The Application of Virtual Reality Exposure Therapy in the Treatment of PTSD Among Firefighters",
@@ -914,8 +996,7 @@
       "Yingjue Jia"
     ],
     "publication_date": "2024-10-18",
-    "doi": "10.1145/3703847.3703884",
-    "added_timestamp": "2024-12-16 15:35:24"
+    "doi": "10.1145/3703847.3703884"
   },
   {
     "title": "Vortioxetine improves illness severity for cannabis users with anxiety and depressive symptoms in a 6-month randomized controlled study",
@@ -931,8 +1012,7 @@
       "Johnson Kai Chun Law"
     ],
     "publication_date": "2025-02-01",
-    "doi": "10.1016/j.josat.2024.209607",
-    "added_timestamp": "2024-12-16 15:35:30"
+    "doi": "10.1016/j.josat.2024.209607"
   },
   {
     "title": "Reconfiguring and repurposing authenticity",
@@ -943,8 +1023,7 @@
       "Alexandra Georgakopoulou"
     ],
     "publication_date": "2024-10-15",
-    "doi": "10.1075/pbns.349.01geo",
-    "added_timestamp": "2024-12-16 15:35:30"
+    "doi": "10.1075/pbns.349.01geo"
   },
   {
     "title": "Facial action units guided graph representation learning formultimodal depressiondetection",
@@ -965,8 +1044,7 @@
       "Hiroshi Ishiguro"
     ],
     "publication_date": "2024-12-01",
-    "doi": "10.1016/j.neucom.2024.129106",
-    "added_timestamp": "2024-12-16 15:35:47"
+    "doi": "10.1016/j.neucom.2024.129106"
   },
   {
     "title": "Multimodalprehabilitation combined with perioperative enhanced recovery after surgery care for older patients undergoing spinal fusion surgery in China: protocol for …",
@@ -980,8 +1058,7 @@
       "Shibao Lu"
     ],
     "publication_date": "2024-12-01",
-    "doi": "10.1136/bmjopen-2024-088339",
-    "added_timestamp": "2024-12-16 15:35:47"
+    "doi": "10.1136/bmjopen-2024-088339"
   },
   {
     "title": "MultimodalLongitudinal Optical Imaging Reveals Optic Neuritis Preceding Retinal Pathology in Experimental Autoimmune Encephalomyelitis",
@@ -999,8 +1076,7 @@
       "Anja Erika Hauser"
     ],
     "publication_date": "2025-01-01",
-    "doi": "10.1212/nxi.0000000000200338",
-    "added_timestamp": "2024-12-16 15:35:47"
+    "doi": "10.1212/nxi.0000000000200338"
   },
   {
     "title": "Important components of yoga practice for mediating thestressresponse",
@@ -1013,8 +1089,7 @@
       "SoJung Kim"
     ],
     "publication_date": "2020-08-01",
-    "doi": "10.1016/j.ctcp.2020.101196",
-    "added_timestamp": "2024-12-16 15:35:47"
+    "doi": "10.1016/j.ctcp.2020.101196"
   },
   {
     "title": "Attention Mechanism-ResNet-based Feature Recognition of Depressed Patients",
@@ -1026,8 +1101,7 @@
       "Yuguang Fu"
     ],
     "publication_date": "2025-02-01",
-    "doi": "10.1016/j.eswa.2024.125508",
-    "added_timestamp": "2024-12-16 15:35:47"
+    "doi": "10.1016/j.eswa.2024.125508"
   },
   {
     "title": "Evaluation of DriverStressLoad in Freeway Tunnel Based on LightGBM and SHAP Methods",
@@ -1041,8 +1115,7 @@
       "Lizhi Cheng"
     ],
     "publication_date": "2024-12-11",
-    "doi": "10.1061/9780784485484.216",
-    "added_timestamp": "2024-12-16 15:35:47"
+    "doi": "10.1061/9780784485484.216"
   },
   {
     "title": "M2SE: A Multistage Multitask Instruction Tuning Strategy for Unified Sentiment and Emotion Analysis",
@@ -1058,8 +1131,7 @@
       "Yongbin Li"
     ],
     "publication_date": "2022-01-01",
-    "doi": "10.18653/v1/2022.emnlp-main.534",
-    "added_timestamp": "2024-12-16 15:35:47"
+    "doi": "10.18653/v1/2022.emnlp-main.534"
   },
   {
     "title": "Investigating the Causal Relationship Between Rheumatoid Arthritis and Neuroimaging Features Using Mendelian Randomization",
@@ -1074,8 +1146,7 @@
       "Peng Xu"
     ],
     "publication_date": "2022-09-14",
-    "doi": "10.21203/rs.3.rs-2022175/v1",
-    "added_timestamp": "2024-12-16 15:35:47"
+    "doi": "10.21203/rs.3.rs-2022175/v1"
   },
   {
     "title": "mies? What is surgical positioning for thyroidectomy? What pre-Rheumatoid arthritis (RA) is an autoimmune disease that",
@@ -1094,8 +1165,7 @@
       "Ciprian Rezus"
     ],
     "publication_date": "2022-05-08",
-    "doi": "10.3390/ijms23095254",
-    "added_timestamp": "2024-12-16 15:35:47"
+    "doi": "10.3390/ijms23095254"
   },
   {
     "title": "A Review of Studies UsingMachine Learningto Detect Voice Biomarkers forDepression",
@@ -1114,8 +1184,7 @@
       "Raymond Brueckner"
     ],
     "publication_date": "2024-12-12",
-    "doi": "10.1007/s41347-024-00454-2",
-    "added_timestamp": "2024-12-16 15:36:06"
+    "doi": "10.1007/s41347-024-00454-2"
   },
   {
     "title": "Lifestyle factors and other predictors of commonmental disordersin diagnosticmachine learningstudies: A systematic review",
@@ -1140,8 +1209,7 @@
       "Samantha L. Dawson"
     ],
     "publication_date": "2025-02-01",
-    "doi": "10.1016/j.compbiomed.2024.109521",
-    "added_timestamp": "2024-12-16 15:36:06"
+    "doi": "10.1016/j.compbiomed.2024.109521"
   },
   {
     "title": "Facingdepression: evaluating the efficacy of the EmpkinS-EKSpression reappraisal training augmented with facial expressions–protocol of a randomized controlled …",
@@ -1162,8 +1230,7 @@
       "Matthias Berking"
     ],
     "publication_date": "2024-12-12",
-    "doi": "10.1186/s12888-024-06361-3",
-    "added_timestamp": "2024-12-16 15:36:06"
+    "doi": "10.1186/s12888-024-06361-3"
   },
   {
     "title": "Neuroimaging signatures and adeep learningmodeling for early diagnosing and predicting non-pharmacological therapy success for subclinicaldepression…",
@@ -1182,8 +1249,7 @@
       "Shijun Qiu"
     ],
     "publication_date": "2024-10-01",
-    "doi": "10.1016/j.ijchp.2024.100526",
-    "added_timestamp": "2024-12-16 15:36:06"
+    "doi": "10.1016/j.ijchp.2024.100526"
   },
   {
     "title": "Photoplethysmography as a noninvasive surrogate for microneurography in measuringstress-induced sympathetic nervous activation—Amachine learningapproach",
@@ -1203,8 +1269,7 @@
       "Chandan Karmakar"
     ],
     "publication_date": "2025-02-01",
-    "doi": "10.1016/j.compbiomed.2024.109522",
-    "added_timestamp": "2024-12-16 15:36:06"
+    "doi": "10.1016/j.compbiomed.2024.109522"
   },
   {
     "title": "MulticlassClassificationof Mental Health Disorders Using XGBoost-HOA Algorithm",
@@ -1217,8 +1282,7 @@
       "Sushil Kumar Narang"
     ],
     "publication_date": "2024-12-12",
-    "doi": "10.1007/s42979-024-03525-6",
-    "added_timestamp": "2024-12-16 15:36:06"
+    "doi": "10.1007/s42979-024-03525-6"
   },
   {
     "title": "StressDetection and Audio-Visual StimuliClassificationFrom Electroencephalogram",
@@ -1235,8 +1299,7 @@
       "M. Ali Akber Dewan"
     ],
     "publication_date": "2024-01-01",
-    "doi": "10.1109/access.2024.3471590",
-    "added_timestamp": "2024-12-16 15:36:06"
+    "doi": "10.1109/access.2024.3471590"
   },
   {
     "title": "The Interrelation of Experiential Avoidance, Rumination andDepression: Insights from Mediation Analysis andMachine Learning",
@@ -1250,8 +1313,7 @@
       "Yunshu Zhang"
     ],
     "publication_date": "2024-10-18",
-    "doi": "10.1145/3703847.3703886",
-    "added_timestamp": "2024-12-16 15:36:06"
+    "doi": "10.1145/3703847.3703886"
   },
   {
     "title": "Depressiondetection from social media using FFA",
@@ -1262,8 +1324,7 @@
       "Qizhang Liu"
     ],
     "publication_date": "2024-01-01",
-    "doi": "10.1063/5.0223444",
-    "added_timestamp": "2024-12-16 15:36:06"
+    "doi": "10.1063/5.0223444"
   },
   {
     "title": "Characterization of common bean production regions in Brazil usingmachine learningtechniques",
@@ -1279,8 +1340,7 @@
       "Silvando Carlos da Silva"
     ],
     "publication_date": "2025-03-01",
-    "doi": "10.1016/j.agsy.2024.104237",
-    "added_timestamp": "2024-12-16 15:36:06"
+    "doi": "10.1016/j.agsy.2024.104237"
   },
   {
     "title": "Adigital twinframework for prediction, monitoring, and diagnosis in copper tube extrusion",
@@ -1291,8 +1351,7 @@
       "Kyriakos SABATAKAKIS"
     ],
     "publication_date": "2024-12-10",
-    "doi": "10.21741/9781644903377-28",
-    "added_timestamp": "2024-12-16 15:36:09"
+    "doi": "10.21741/9781644903377-28"
   },
   {
     "title": "Santos as an Integrated HumanDigital Twin, a Case Study: US Army Combat Fitness Test",
@@ -1301,8 +1360,7 @@
     "source": "Preparing for the Army Combat Fitness Test",
     "authors": [],
     "publication_date": "2021-01-01",
-    "doi": "10.5040/9781718225480.ch-001",
-    "added_timestamp": "2024-12-16 15:36:09"
+    "doi": "10.5040/9781718225480.ch-001"
   },
   {
     "title": "Injection Molding of Polymeric and Composite Materials",
@@ -1314,8 +1372,7 @@
       "K.Y. Benyounis"
     ],
     "publication_date": "2016-01-01",
-    "doi": "10.1016/b978-0-12-803581-8.04022-4",
-    "added_timestamp": "2024-12-16 15:36:09"
+    "doi": "10.1016/b978-0-12-803581-8.04022-4"
   },
   {
     "title": "Genetic analysis of emotionality using consomic mouse strains established from C57BL/6J and MSM/Ms",
@@ -1330,8 +1387,7 @@
       "T. Koide"
     ],
     "publication_date": "2008-11-01",
-    "doi": "10.1111/j.1601-183x.2008.00419.x",
-    "added_timestamp": "2024-12-16 15:36:15"
+    "doi": "10.1111/j.1601-183x.2008.00419.x"
   },
   {
     "title": "A study of genetic factors responsible for difference in spontaneous home-cage activity between inbred strains of mouse",
@@ -1347,8 +1403,7 @@
       "Tsuyoshi Koide"
     ],
     "publication_date": "2011-09-01",
-    "doi": "10.1016/j.neures.2011.07.716",
-    "added_timestamp": "2024-12-16 15:36:15"
+    "doi": "10.1016/j.neures.2011.07.716"
   },
   {
     "title": "Unacknowledged Abuse Experiences: An Overlooked Phenomenon Affecting Psychopathology, Wellness, and Relationships in and Out of the Psychotherapist's …",
@@ -1358,8 +1413,7 @@
     "authors": [
       "SE Kletkewicz"
     ],
-    "publication_date": "",
-    "added_timestamp": "2024-12-16 15:36:15"
+    "publication_date": ""
   },
   {
     "title": "Ethical Considerations inMental HealthData Collection and Analysis: Ethical and Legal Aspects ofMental HealthData inWearableTechnology",
@@ -1371,8 +1425,7 @@
       "MP Ambali"
     ],
     "publication_date": "2016-01-01",
-    "doi": "10.4135/9781483393575.n15",
-    "added_timestamp": "2024-12-16 15:36:31"
+    "doi": "10.4135/9781483393575.n15"
   },
   {
     "title": "Role ofWearableTechnology inMental HealthMonitoring and Management:PsychiatricInsights intoWearableTechnology Adoption",
@@ -1383,8 +1436,7 @@
       "Justin Leiby"
     ],
     "publication_date": "2018-04-01",
-    "doi": "10.1016/j.aos.2018.03.003",
-    "added_timestamp": "2024-12-16 15:36:31"
+    "doi": "10.1016/j.aos.2018.03.003"
   },
   {
     "title": "Leveraging Mobile Technology for EnhancedMental HealthLevels in University Students.",
@@ -1397,8 +1449,7 @@
       "Qiuju Feng"
     ],
     "publication_date": "2024-12-03",
-    "doi": "10.3991/ijim.v18i23.52877",
-    "added_timestamp": "2024-12-16 15:36:31"
+    "doi": "10.3991/ijim.v18i23.52877"
   },
   {
     "title": "Real-time Tracking of Mood, Physical Activity, and Sleep Using Mobile Technology in College Freshmen",
@@ -1419,8 +1470,7 @@
       "Kenneth M. Kozloff"
     ],
     "publication_date": "2024-10-01",
-    "doi": "10.1249/01.mss.0001055240.82497.f5",
-    "added_timestamp": "2024-12-16 15:36:31"
+    "doi": "10.1249/01.mss.0001055240.82497.f5"
   },
   {
     "title": "The Relationship Between Genetic Chronotype and PHQ-9 Score for Intern Physicians Modeled Through Two Different Polygenic Risk Scores",
@@ -1439,8 +1489,7 @@
       "Fangbiao Tao"
     ],
     "publication_date": "2023-12-20",
-    "doi": "10.1186/s12888-023-05337-z",
-    "added_timestamp": "2024-12-16 15:36:31"
+    "doi": "10.1186/s12888-023-05337-z"
   },
   {
     "title": "Detection and Classification of Mental Stress Using In-Ear Plethysmography and a Vision Transformer",
@@ -1453,8 +1502,7 @@
       "Wan-Young Chung"
     ],
     "publication_date": "2024-01-01",
-    "doi": "10.1109/jsen.2024.3512595",
-    "added_timestamp": "2024-12-16 15:36:31"
+    "doi": "10.1109/jsen.2024.3512595"
   },
   {
     "title": "Health in the Digital Age: The Rise of Personalized Medicine",
@@ -1470,8 +1518,7 @@
       "Luana Colloca"
     ],
     "publication_date": "2023-11-01",
-    "doi": "10.1093/med/9780197645444.003.0025",
-    "added_timestamp": "2024-12-16 15:36:31"
+    "doi": "10.1093/med/9780197645444.003.0025"
   },
   {
     "title": "Examining Direct-to-Consumer Healthcare Through Three Lenses: Consumer Trust, Industry Evolution, and Policy Uncertainty",
@@ -1482,8 +1529,7 @@
       "A Nagappan"
     ],
     "publication_date": "2005-12-20",
-    "doi": "10.1787/231767418167",
-    "added_timestamp": "2024-12-16 15:36:31"
+    "doi": "10.1787/231767418167"
   },
   {
     "title": "Kathleen Breda, NP",
@@ -1491,8 +1537,7 @@
     "snippet": "… It is defined by the American Psychiatric Association’s fifth edition of the Diagnostic and Statistical Manual of Mental Disorders as a disturbance in … To achieve these goals, we explored the use of a multimodal strategy centered on …",
     "source": "J Ching, S Darwish, K Siegel, X Li, J Wong, B Simpson…",
     "authors": [],
-    "publication_date": "",
-    "added_timestamp": "2024-12-16 15:36:33"
+    "publication_date": ""
   },
   {
     "title": "The wellbeing coach",
@@ -1503,8 +1548,7 @@
       "Lindsay G. Oades"
     ],
     "publication_date": "2024-12-09",
-    "doi": "10.4324/9781003319016-3",
-    "added_timestamp": "2024-12-16 15:36:33"
+    "doi": "10.4324/9781003319016-3"
   },
   {
     "title": "Mixed Topics",
@@ -1515,8 +1559,7 @@
       "Markus Haase"
     ],
     "publication_date": "2006-01-01",
-    "doi": "10.1007/3-7643-7698-8_9",
-    "added_timestamp": "2024-12-16 15:36:33"
+    "doi": "10.1007/3-7643-7698-8_9"
   },
   {
     "title": "Emotion-AwareMultimodalBiometric Identification by Using Biosignals",
@@ -1529,8 +1572,7 @@
       "Fatih Alagöz"
     ],
     "publication_date": "2024-10-26",
-    "doi": "10.1109/ubmk63289.2024.10773617",
-    "added_timestamp": "2024-12-16 15:36:43"
+    "doi": "10.1109/ubmk63289.2024.10773617"
   },
   {
     "title": "The effect of educational-supportive program on theanxietyof mothers of infants admitted to the neonatal intensive care unit (NICU)",
@@ -1544,8 +1586,7 @@
       "Behnaz Bagherian"
     ],
     "publication_date": "2024-11-01",
-    "doi": "10.1016/j.jnn.2024.11.006",
-    "added_timestamp": "2024-12-16 15:36:43"
+    "doi": "10.1016/j.jnn.2024.11.006"
   },
   {
     "title": "Sensory Processing andAnxiety: Within and Beyond the Autism Spectrum",
@@ -1565,8 +1606,7 @@
       "Carissa J. Cascio"
     ],
     "publication_date": "2024-01-01",
-    "doi": "10.1007/7854_2024_557",
-    "added_timestamp": "2024-12-16 15:36:43"
+    "doi": "10.1007/7854_2024_557"
   },
   {
     "title": "Deep learning for plantstressdetection: A comprehensive review of technologies, challenges, and future directions",
@@ -1580,8 +1620,7 @@
       "Xin Sun"
     ],
     "publication_date": "2025-02-01",
-    "doi": "10.1016/j.compag.2024.109734",
-    "added_timestamp": "2024-12-16 15:36:43"
+    "doi": "10.1016/j.compag.2024.109734"
   },
   {
     "title": "The wellbeing coach",
@@ -1592,8 +1631,7 @@
       "Lindsay G. Oades"
     ],
     "publication_date": "2024-12-09",
-    "doi": "10.4324/9781003319016-3",
-    "added_timestamp": "2024-12-16 15:36:43"
+    "doi": "10.4324/9781003319016-3"
   },
   {
     "title": "Explainer: NDIS and creative arts therapies",
@@ -1605,8 +1643,7 @@
       "Shoshi Keisari"
     ],
     "publication_date": "2023-02-28",
-    "doi": "10.1017/9781009031240.027",
-    "added_timestamp": "2024-12-16 15:36:43"
+    "doi": "10.1017/9781009031240.027"
   },
   {
     "title": "Neuroscience and Motivation",
@@ -1617,8 +1654,7 @@
       "Myint Swe Khine"
     ],
     "publication_date": "2024-01-01",
-    "doi": "10.1007/978-981-97-9247-4_6",
-    "added_timestamp": "2024-12-16 15:36:43"
+    "doi": "10.1007/978-981-97-9247-4_6"
   },
   {
     "title": "Anxietyin aquatics: Leveragingmachine learningmodels to predict adult zebrafish behavior",
@@ -1632,8 +1668,7 @@
       "Alwin Poulose"
     ],
     "publication_date": "2024-12-01",
-    "doi": "10.1016/j.neuroscience.2024.12.013",
-    "added_timestamp": "2024-12-16 15:36:59"
+    "doi": "10.1016/j.neuroscience.2024.12.013"
   },
   {
     "title": "Machine learning-assisted implantable plant electrophysiology microneedle sensor for plantstressmonitoring",
@@ -1648,23 +1683,19 @@
       "Jianfeng Ping"
     ],
     "publication_date": "2024-12-01",
-    "doi": "10.1016/j.bios.2024.117062",
-    "added_timestamp": "2024-12-16 15:36:59"
+    "doi": "10.1016/j.bios.2024.117062"
   },
   {
     "title": "DepressionSymptoms Prediction on Online Social Networks UsingMachine LearningAlgorithms",
     "link": "https://books.google.com/books?hl=en&lr=lang_en&id=FF03EQAAQBAJ&oi=fnd&pg=PA222&dq=(bipolar+OR+schizophrenia+OR+%22major+depressive%22+OR+%22MDD%22+OR+ADHD+OR+%22mental+disorders%22+OR+%E2%80%9Canxiety%E2%80%9D+OR+%E2%80%9CPTSD%E2%80%9D+OR+%E2%80%9Cdepression%E2%80%9D+OR+%E2%80%9Cstress%E2%80%9D+OR+%E2%80%9Cchronic+pain%E2%80%9D+OR+%E2%80%9Caddiction%E2%80%9D+OR+substance+AND+(%22machine+learning%22+OR+%22deep+learning%22+OR+%22classification%22)&ots=bh0hm5Bv9m&sig=AEuAlfkzM08j1_W4g-Vv0vtpIbI",
-    "snippet": "Event prediction is a very important task in numerous applications of interest like fintech, medical, security, etc. However, event prediction is a highly complex task because it is challenging to classify, contains temporally changing themes of discussion and heavy topic drifts. In this research, we present a novel approach which leverages on the RFT framework developed in \\cite{tan2020discovering}. This study addresses the challenge of accurately representing relational features in observed complex social communication behavior for the event prediction task; which recent graph learning methodologies are struggling with. The concept here, is to firstly learn the turbulent patterns of relational state transitions between actors preceeding an event and then secondly, to evolve these profiles temporally, in the event prediction process. The event prediction model which leverages on the RFT framework discovers, identifies and adaptively ranks relational turbulence as likelihood predictions of event occurrences. Extensive experiments on large-scale social datasets across important indicator tests for validation, show that the RFT framework performs comparably better by more than 10\\% to HPM \\cite{amodeo2011hybrid} and other state-of-the-art baselines in event prediction.",
-    "source": "Journal of Data Intelligence",
+    "snippet": "… Similarly, a deep learning model was proposed in another study to determine depression … A textual-based featuring approach for depression detection using machine learning … of major depressive disorder from cortical hemodynamic …",
+    "source": "6th Chilean Conference on Pattern Recognition (CCPR)",
     "authors": [
-      "Leonard Tan",
-      "Thuan Pham",
-      "Kei Ho Hang",
-      "Seng Kok Tan"
+      "M. Estrada",
+      "M. Mendoza"
     ],
-    "publication_date": "2021-03-01",
-    "doi": "10.26421/jdi2.1-4",
-    "added_timestamp": "2024-12-16 15:36:59"
+    "publication_date": "2014-01-01",
+    "doi": "10.1049/14.2014.0012"
   },
   {
     "title": "Correction: Replication ofmachine learningmethods to predict treatment outcome with antidepressant medications in patients withmajor depressivedisorder from …",
@@ -1688,8 +1719,7 @@
       "Raymond W. Lam"
     ],
     "publication_date": "2024-12-12",
-    "doi": "10.1371/journal.pone.0315844",
-    "added_timestamp": "2024-12-16 15:36:59"
+    "doi": "10.1371/journal.pone.0315844"
   },
   {
     "title": "Screening forDepressionandAnxietyUsing a Nonverbal Working Memory Task in a Sample of Older Brazilians: Observational Study of Preliminary Artificial …",
@@ -1705,8 +1735,7 @@
       "Stefano Goria"
     ],
     "publication_date": "2024-02-01",
-    "doi": "10.2196/55856",
-    "added_timestamp": "2024-12-16 15:36:59"
+    "doi": "10.2196/55856"
   },
   {
     "title": "DepressionDetection in Social Media Text UsingMachine LearningTechniques",
@@ -1718,9 +1747,8 @@
       "Sofiane Abbar",
       "Noha Ibrahim"
     ],
-    "publication_date": "2017-01-01",
-    "doi": "10.1007/978-1-4899-7993-3_80672-1",
-    "added_timestamp": "2024-12-16 15:36:59"
+    "publication_date": "2018-01-01",
+    "doi": "10.1007/978-1-4614-8265-9_80672"
   },
   {
     "title": "Depression Classificationfrom rs-fMRI: A Local-to-Global Graph Neural Network Approach",
@@ -1746,8 +1774,7 @@
       "Cheng Jin"
     ],
     "publication_date": "2024-12-01",
-    "doi": "10.1016/j.patter.2024.101081",
-    "added_timestamp": "2024-12-16 15:36:59"
+    "doi": "10.1016/j.patter.2024.101081"
   },
   {
     "title": "Emotional Vietnamese Speech-BasedDepressionDiagnosis Using Dynamic Attention Mechanism",
@@ -1760,8 +1787,7 @@
       "Quang H. Nguyen"
     ],
     "publication_date": "2023-01-01",
-    "doi": "10.32604/csse.2023.026234",
-    "added_timestamp": "2024-12-16 15:36:59"
+    "doi": "10.32604/csse.2023.026234"
   },
   {
     "title": "Enhanced State Monitoring and Fault Diagnosis Method for Intelligent Manufacturing Systems via RXET inDigital TwinTechnology.",
@@ -1772,8 +1798,7 @@
       "Min Li"
     ],
     "publication_date": "2024-01-01",
-    "doi": "10.14569/ijacsa.2024.01511124",
-    "added_timestamp": "2024-12-16 15:37:05"
+    "doi": "10.14569/ijacsa.2024.01511124"
   },
   {
     "title": "RELIABILITY ESTIMATION AND LIFECYCLE ASSESSMENT OF ELECTRONICS IN EXTREME CONDITIONS",
@@ -1787,8 +1812,7 @@
       "I. V. Mashkin"
     ],
     "publication_date": "2016-06-22",
-    "doi": "10.18372/1990-5548.47.10295",
-    "added_timestamp": "2024-12-16 15:37:05"
+    "doi": "10.18372/1990-5548.47.10295"
   },
   {
     "title": "Foundations of Semantic Communication Networks",
@@ -1803,8 +1827,7 @@
       "Pieter De Leenheer"
     ],
     "publication_date": "2013-04-01",
-    "doi": "10.4018/jssmet.2013040101",
-    "added_timestamp": "2024-12-16 15:37:06"
+    "doi": "10.4018/jssmet.2013040101"
   },
   {
     "title": "Stressfield identification usingdeep learningand three-dimensional digital image correlation",
@@ -1822,8 +1845,7 @@
       "Yuhe Wang"
     ],
     "publication_date": "2024-12-01",
-    "doi": "10.1016/j.measurement.2024.116517",
-    "added_timestamp": "2024-12-16 15:37:24"
+    "doi": "10.1016/j.measurement.2024.116517"
   },
   {
     "title": "Investigating the Psychological Outcomes Through Yoga forStressReduction UsingMachine Learningand Statistical Techniques",
@@ -1836,8 +1858,7 @@
       "Shirley Telles"
     ],
     "publication_date": "2024-12-14",
-    "doi": "10.1007/s42979-024-03489-7",
-    "added_timestamp": "2024-12-16 15:37:24"
+    "doi": "10.1007/s42979-024-03489-7"
   },
   {
     "title": "AMachine-Learning-Assisted Wireless Battery-FreeStressMonitoring Wearable System",
@@ -1853,8 +1874,7 @@
       "Rahim Esfandyarpour"
     ],
     "publication_date": "2024-10-15",
-    "doi": "10.1109/bsn63547.2024.10780621",
-    "added_timestamp": "2024-12-16 15:37:24"
+    "doi": "10.1109/bsn63547.2024.10780621"
   },
   {
     "title": "Early identification ofSchizophreniausing multi-view learning model",
@@ -1872,8 +1892,7 @@
       "Al-Farouni Mohammed"
     ],
     "publication_date": "2024-08-01",
-    "doi": "10.1080/23311916.2024.2384649",
-    "added_timestamp": "2024-12-16 15:37:24"
+    "doi": "10.1080/23311916.2024.2384649"
   },
   {
     "title": "Hybridization of ML & DL for DetectingDepression",
@@ -1889,8 +1908,7 @@
       "M.Meena"
     ],
     "publication_date": "2024-10-08",
-    "doi": "10.1109/icpects62210.2024.10780278",
-    "added_timestamp": "2024-12-16 15:37:24"
+    "doi": "10.1109/icpects62210.2024.10780278"
   },
   {
     "title": "Selecting the BestMachine LearningModels for Industrial Robotics with HesitantBipolarFuzzy MCDM: A Comprehensive Framework for Evaluating Industrial …",
@@ -1902,8 +1920,7 @@
       "Bo Tang"
     ],
     "publication_date": "2024-01-01",
-    "doi": "10.14569/ijacsa.2024.0151151",
-    "added_timestamp": "2024-12-16 15:37:24"
+    "doi": "10.14569/ijacsa.2024.0151151"
   },
   {
     "title": "Anxiety,Depression, andStressPrediction in Modern Life UsingMachine Learning, Taxonomy, Applications, and Challenges",
@@ -1917,8 +1934,7 @@
       "Siddhartha Barua"
     ],
     "publication_date": "2024-12-20",
-    "doi": "10.4018/979-8-3373-1032-9.ch034",
-    "added_timestamp": "2024-12-16 15:37:24"
+    "doi": "10.4018/979-8-3373-1032-9.ch034"
   },
   {
     "title": "Understanding Early-LifeStressImpact on Mental-Physical Comorbidity UsingMachine Learning",
@@ -1931,21 +1947,18 @@
       "Karim Lekadir"
     ],
     "publication_date": "2024-11-13",
-    "doi": "10.1109/sipaim62974.2024.10783623",
-    "added_timestamp": "2024-12-16 15:37:24"
+    "doi": "10.1109/sipaim62974.2024.10783623"
   },
   {
     "title": "Development of a Novel Method forStressDetection andClassificationUsing EEG and Neural Networks",
     "link": "https://sciforum.net/paper/view/20319",
     "snippet": "… stress detection and classification using electroencephalogram (EEG) data combined with neural network modeling. We propose a multi-layer neural network architecture optimized to analyze EEG frequency bands and extract stress … bands …",
-    "source": "Procedia Computer Science",
+    "source": "Neuropsychobiology",
     "authors": [
-      "Anas El Korchi",
-      "Youssf Ghanou"
+      "Bert Kl&ouml;ppel"
     ],
-    "publication_date": "2018-01-01",
-    "doi": "10.1016/j.procs.2018.01.103",
-    "added_timestamp": "2024-12-16 15:37:24"
+    "publication_date": "1994-01-01",
+    "doi": "10.1159/000119060"
   },
   {
     "title": "Machine Learning-Based Detection",
@@ -1957,8 +1970,7 @@
       "K. Shanti Swarup"
     ],
     "publication_date": "2024-01-01",
-    "doi": "10.1007/978-981-97-1302-8_7",
-    "added_timestamp": "2024-12-16 15:37:24"
+    "doi": "10.1007/978-981-97-1302-8_7"
   },
   {
     "title": "MultimodalMarkers of Transdiagnostic ChildhoodMental HealthImpairment",
@@ -1972,8 +1984,7 @@
       "J Halvorson-Phelan…"
     ],
     "publication_date": "2020-01-01",
-    "doi": "10.1007/978-3-319-24612-3_302761",
-    "added_timestamp": "2024-12-16 15:37:31"
+    "doi": "10.1007/978-3-319-24612-3_302761"
   },
   {
     "title": "U-Fair: Uncertainty-basedMultimodalMultitask Learning for Fairer Depression Detection",
@@ -1987,8 +1998,7 @@
       "H Gunes"
     ],
     "publication_date": "2016-07-11",
-    "doi": "10.1377/forefront.20160711.055778",
-    "added_timestamp": "2024-12-16 15:37:31"
+    "doi": "10.1377/forefront.20160711.055778"
   },
   {
     "title": "AI-Powered Emotion Recognition and Intervention System for EnhancingMental Healthand Safety in the Maritime Industry",
@@ -2002,8 +2012,7 @@
       "Alessandro Bertirotti"
     ],
     "publication_date": "2024-01-01",
-    "doi": "10.54941/ahfe1004824",
-    "added_timestamp": "2024-12-16 15:37:31"
+    "doi": "10.54941/ahfe1004824"
   },
   {
     "title": "A Multi-modal Framework to Counter Hate Speeches",
@@ -2015,8 +2024,7 @@
       "Akshay Agarwal"
     ],
     "publication_date": "2024-12-05",
-    "doi": "10.1007/978-3-031-78119-3_14",
-    "added_timestamp": "2024-12-16 15:37:31"
+    "doi": "10.1007/978-3-031-78119-3_14"
   },
   {
     "title": "Physiotherapy assessment and intervention for patients with Lumbar Disc Herniation with Radiculopathy: A self-study material for physiotherapy students",
@@ -2027,8 +2035,7 @@
       "MusaSani Danazumi"
     ],
     "publication_date": "2019-01-01",
-    "doi": "10.4103/njecp.njecp_30_19",
-    "added_timestamp": "2024-12-16 15:37:31"
+    "doi": "10.4103/njecp.njecp_30_19"
   },
   {
     "title": "Literature for LGBTQ+ Visibility:'Heartstopper'in the Classroom",
@@ -2039,8 +2046,7 @@
       "John Gray"
     ],
     "publication_date": "2021-04-01",
-    "doi": "10.1093/elt/ccaa079",
-    "added_timestamp": "2024-12-16 15:37:31"
+    "doi": "10.1093/elt/ccaa079"
   },
   {
     "title": "Longitudinal Profiles of Heart Rate Variability in First-Year College Students UsingWearables",
@@ -2056,8 +2062,7 @@
       "Ellen W. McGinnis"
     ],
     "publication_date": "2024-10-15",
-    "doi": "10.1109/bsn63547.2024.10780775",
-    "added_timestamp": "2024-12-16 15:37:40"
+    "doi": "10.1109/bsn63547.2024.10780775"
   },
   {
     "title": "Nightly Heart Rate Variability as a Biomarker ofMental HealthChanges in College Students",
@@ -2073,8 +2078,7 @@
       "Ryan S. McGinnis"
     ],
     "publication_date": "2024-10-15",
-    "doi": "10.1109/bsn63547.2024.10780647",
-    "added_timestamp": "2024-12-16 15:37:40"
+    "doi": "10.1109/bsn63547.2024.10780647"
   },
   {
     "title": "WearablePair of EEG, EOG and fNIRS Glasses for Cognitive Workload Detection",
@@ -2087,8 +2091,7 @@
       "Minsol Kim"
     ],
     "publication_date": "2024-10-15",
-    "doi": "10.1109/bsn63547.2024.10780518",
-    "added_timestamp": "2024-12-16 15:37:40"
+    "doi": "10.1109/bsn63547.2024.10780518"
   },
   {
     "title": "InfantMotion2Vec: Unlabeled Data-Driven Infant Pose Estimation Using a Single Chest IMU",
@@ -2102,8 +2105,7 @@
       "Bashima Islam"
     ],
     "publication_date": "2024-10-15",
-    "doi": "10.1109/bsn63547.2024.10780750",
-    "added_timestamp": "2024-12-16 15:37:40"
+    "doi": "10.1109/bsn63547.2024.10780750"
   },
   {
     "title": "Assay-guided chemo in recurrent glioma linked to longer survival",
@@ -2114,8 +2116,7 @@
       "Mark L. Fuerst"
     ],
     "publication_date": "2024-08-01",
-    "doi": "10.1097/01.cot.0001028136.77077.eb",
-    "added_timestamp": "2024-12-16 15:37:40"
+    "doi": "10.1097/01.cot.0001028136.77077.eb"
   },
   {
     "title": "The young and the restless: restless sleep and its effect on behavioral and neural inhibition in youths with and withoutADHD",
@@ -2125,8 +2126,7 @@
     "authors": [
       "TL Larguinho"
     ],
-    "publication_date": "",
-    "added_timestamp": "2024-12-16 15:37:46"
+    "publication_date": ""
   },
   {
     "title": "The Road Ahead: Medical Cannabis and its Impact on Driving",
@@ -2139,8 +2139,7 @@
       "Iain S McGregor"
     ],
     "publication_date": "2021-06-01",
-    "doi": "10.31128/ajgp-02-21-5840",
-    "added_timestamp": "2024-12-16 15:37:46"
+    "doi": "10.31128/ajgp-02-21-5840"
   },
   {
     "title": "To Be Q'eqchi'During COVID-19: The Impact of Marginalization and Misinformation on Healthcare Behaviour and Decision-Making",
@@ -2152,8 +2151,7 @@
       "Carolyn Beth McNabb"
     ],
     "publication_date": "2020-05-01",
-    "doi": "10.31219/osf.io/jvfds",
-    "added_timestamp": "2024-12-16 15:37:46"
+    "doi": "10.31219/osf.io/jvfds"
   },
   {
     "title": "The Better Angels of Our Nature: Utopian Mythology in American Literature",
@@ -2164,8 +2162,7 @@
       "Mark Lause"
     ],
     "publication_date": "2010-06-01",
-    "doi": "10.31390/cwbr.12.3.5",
-    "added_timestamp": "2024-12-16 15:37:46"
+    "doi": "10.31390/cwbr.12.3.5"
   },
   {
     "title": "Anesthesiologic Management of Patients with Opioids or PsychoactiveSubstance Use",
@@ -2176,8 +2173,7 @@
       "Harald V. Genzwuerker"
     ],
     "publication_date": "2010-01-01",
-    "doi": "10.1007/978-3-540-77786-1_13",
-    "added_timestamp": "2024-12-16 15:37:55"
+    "doi": "10.1007/978-3-540-77786-1_13"
   },
   {
     "title": "Kathryn Paige Johnson, MD",
@@ -2188,8 +2184,7 @@
       "Donna Tyler Hollie"
     ],
     "publication_date": "2013-03-15",
-    "doi": "10.1093/acref/9780195301731.013.37232",
-    "added_timestamp": "2024-12-16 15:37:55"
+    "doi": "10.1093/acref/9780195301731.013.37232"
   },
   {
     "title": "Franklin A. Michota, MD, FHM",
@@ -2200,7 +2195,6 @@
       "RICHARD E. BUENGER"
     ],
     "publication_date": "1997-08-01",
-    "doi": "10.1148/radiology.204.2.584-a",
-    "added_timestamp": "2024-12-16 15:37:55"
+    "doi": "10.1148/radiology.204.2.584-a"
   }
 ]
